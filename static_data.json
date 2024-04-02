@@ -1,0 +1,3535 @@
+[
+    {
+        "category": "UI Content",
+        "principle": "No raw error messages",
+        "num_bugs": 91,
+        "links": {
+            "#32": "https://github.com/ankidroid/Anki-Android/issues/4502",
+            "#387": "https://github.com/Teifun2/nextcloud-cookbook-flutter/issues/118",
+            "#613": "https://github.com/CypherpunkArmory/UserLAnd/issues/1062",
+            "#674": "https://github.com/QuantumBadger/RedReader/issues/277",
+            "#770": "https://github.com/SimpleMobileTools/Simple-Camera/issues/287",
+            "#961": "https://github.com/andstatus/todoagenda/issues/36",
+            "#1035": "https://github.com/xbrowsersync/app/issues/66",
+            "#1052": "https://github.com/JunkFood02/Seal/issues/330",
+            "#1103": "https://github.com/redsolution/xabber-android/issues/760",
+            "#1319": "https://github.com/Akaflieg-Freiburg/enroute/issues/11",
+            "#1344": "https://github.com/mpv-android/mpv-android/issues/288",
+            "#1389": "https://github.com/zulip/zulip-mobile/issues/2640",
+            "#1392": "https://github.com/nextcloud/android/issues/10865",
+            "#1544": "https://github.com/invoiceninja/admin-portal/issues/121",
+            "#1603": "https://github.com/chandevel/Clover/issues/74",
+            "#1668": "https://github.com/z-huang/InnerTune/issues/311",
+            "#1761": "https://github.com/TwidereProject/Twidere-Android/issues/936",
+            "#1768": "https://github.com/openhab/openhab-android/issues/2320",
+            "#1791": "https://github.com/devgianlu/Aria2Android/issues/20",
+            "#1801": "https://github.com/Mygod/VPNHotspot/issues/170",
+            "#1858": "https://github.com/jonjomckay/fritter/issues/356",
+            "#1891": "https://github.com/jonasoreland/runnerup/issues/1082",
+            "#1995": "https://github.com/SimpleMobileTools/Simple-Contacts/issues/333",
+            "#2019": "https://github.com/TBog/TBLauncher/issues/244",
+            "#2033": "https://github.com/maks/MGit/issues/605",
+            "#2034": "https://github.com/kaaholst/android-squeezer/issues/121",
+            "#2100": "https://github.com/SapuSeven/BetterUntis/issues/310",
+            "#2115": "https://github.com/SimpleMobileTools/Simple-Contacts/issues/245",
+            "#2122": "https://github.com/bgregos/foreground/issues/135",
+            "#2260": "https://github.com/greenaddress/WalletCordova/issues/18",
+            "#2321": "https://github.com/fossasia/open-event-organizer-android/issues/1537",
+            "#2368": "https://github.com/hiroshiyui/GuilelessBopomofo/issues/13",
+            "#2385": "https://github.com/flex3r/DankChat/issues/290",
+            "#2397": "https://github.com/NeoApplications/Neo-Backup/issues/198",
+            "#2408": "https://github.com/AllanWang/Frost-for-Facebook/issues/1668",
+            "#2452": "https://github.com/syphon-org/syphon/issues/492",
+            "#2744": "https://github.com/SkyTubeTeam/SkyTube/issues/974",
+            "#2848": "https://github.com/quaap/BookyMcBookface/issues/32",
+            "#2864": "https://github.com/safe-global/safe-android/issues/1725",
+            "#2952": "https://github.com/Shabinder/SpotiFlyer/issues/1817",
+            "#2990": "https://github.com/Tunous/Dawn/issues/123",
+            "#2996": "https://github.com/xgouchet/Stanley/issues/36",
+            "#3016": "https://github.com/schaal/ocreader/issues/51",
+            "#3021": "https://github.com/jonjomckay/fritter/issues/175",
+            "#3055": "https://github.com/NeoApplications/Neo-Backup/issues/205",
+            "#3090": "https://github.com/invoiceninja/admin-portal/issues/32",
+            "#3093": "https://github.com/rapidpro/surveyor/issues/25",
+            "#3147": "https://github.com/status-im/status-mobile/issues/14056",
+            "#3249": "https://github.com/teal77/trireme/issues/31",
+            "#3357": "https://github.com/tranquvis/SimpleSmsRemote/issues/40",
+            "#3437": "https://github.com/heb12/heb12-mobile/issues/12",
+            "#3456": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/2236",
+            "#3591": "https://github.com/sterrenburg/flutterhole/issues/88",
+            "#3597": "https://github.com/LemmurOrg/lemmur/issues/225",
+            "#3603": "https://github.com/KRTirtho/spotube/issues/224",
+            "#3701": "https://github.com/Mishiranu/Dashchan/issues/253",
+            "#3710": "https://github.com/project-travel-mate/Travel-Mate/issues/719",
+            "#3871": "https://github.com/project-travel-mate/Travel-Mate/issues/667",
+            "#3888": "https://github.com/fossasia/open-event-organizer-android/issues/2189",
+            "#3946": "https://github.com/wncc/instiapp-android/issues/263",
+            "#3976": "https://github.com/xbrowsersync/app/issues/81",
+            "#3980": "https://github.com/SimpleMobileTools/Simple-Camera/issues/306",
+            "#3999": "https://github.com/JunkFood02/Seal/issues/182",
+            "#4018": "https://github.com/TwidereProject/Twidere-Android/issues/1127",
+            "#4062": "https://github.com/SkyTubeTeam/SkyTube/issues/652",
+            "#4083": "https://github.com/tachiyomiorg/tachiyomi/issues/8539",
+            "#4199": "https://github.com/Swati4star/Images-to-PDF/issues/729",
+            "#4233": "https://github.com/michaelkourlas/voipms-sms-client/issues/9",
+            "#4238": "https://github.com/authpass/authpass/issues/306",
+            "#4239": "https://github.com/syphon-org/syphon/issues/239",
+            "#4255": "https://github.com/beemdevelopment/Aegis/issues/274",
+            "#4265": "https://github.com/SimpleMobileTools/Simple-Notes/issues/444",
+            "#4305": "https://github.com/marcoXbresciani/TKCompanionApp/issues/13",
+            "#4338": "https://github.com/owncloud/android/issues/1983",
+            "#4360": "https://github.com/bauerj/paperless_app/issues/33",
+            "#4449": "https://github.com/zulip/zulip-mobile/issues/2751",
+            "#4472": "https://github.com/SimpleMobileTools/Simple-Draw/issues/89",
+            "#4486": "https://github.com/tutao/tutanota/issues/3965",
+            "#4597": "https://github.com/Tunous/Dawn/issues/232",
+            "#4601": "https://github.com/ubipo/osmfocus/issues/9",
+            "#4620": "https://github.com/immich-app/immich/issues/415",
+            "#4813": "https://github.com/marksuth/indigenous-android/issues/403",
+            "#4934": "https://github.com/beemdevelopment/Aegis/issues/918",
+            "#5024": "https://github.com/cyclestreets/android/issues/157",
+            "#5026": "https://github.com/premnirmal/StockTicker/issues/268",
+            "#5146": "https://github.com/patzly/grocy-android/issues/124",
+            "#5221": "https://github.com/moezbhatti/qksms/issues/1468",
+            "#5226": "https://github.com/Swati4star/Images-to-PDF/issues/102",
+            "#5231": "https://github.com/safe-global/safe-android/issues/1605",
+            "#5290": "https://github.com/rRemix/APlayer/issues/27",
+            "#5307": "https://github.com/mysociety/fixmystreet-mobile/issues/42"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Screen rotation should not alter UI contents",
+        "num_bugs": 56,
+        "links": {
+            "#9": "https://github.com/AntennaPod/AntennaPod/issues/2992",
+            "#52": "https://github.com/marco97pa/punti-burraco/issues/51",
+            "#53": "https://github.com/fossasia/phimpme-android/issues/2175",
+            "#66": "https://github.com/ankidroid/Anki-Android/issues/5688",
+            "#252": "https://github.com/brarcher/loyalty-card-locker/issues/67",
+            "#364": "https://github.com/fossasia/badge-magic-android/issues/431",
+            "#390": "https://github.com/haiwen/seadroid/issues/380",
+            "#420": "https://github.com/fossasia/badge-magic-android/issues/280",
+            "#508": "https://github.com/fossasia/badge-magic-android/issues/467",
+            "#737": "https://github.com/wallabag/android-app/issues/625",
+            "#751": "https://github.com/TeamAmaze/AmazeFileManager/issues/2910",
+            "#875": "https://github.com/gsantner/memetastic/issues/86",
+            "#878": "https://github.com/cvzi/ScreenshotTile/issues/119",
+            "#911": "https://github.com/fossasia/open-event-organizer-android/issues/2121",
+            "#1226": "https://github.com/EventFahrplan/EventFahrplan/issues/14",
+            "#1400": "https://github.com/netmackan/ATimeTracker/issues/8",
+            "#1401": "https://github.com/gsantner/dandelion/issues/87",
+            "#1498": "https://github.com/syncthing/syncthing-android/issues/804",
+            "#1570": "https://github.com/fossasia/open-event-organizer-android/issues/1574",
+            "#1623": "https://github.com/akvo/akvo-rsr-up/issues/27",
+            "#1760": "https://github.com/devgianlu/Aria2App/issues/109",
+            "#1948": "https://github.com/gsantner/memetastic/issues/95",
+            "#2003": "https://github.com/enricocid/Music-Player-GO/issues/273",
+            "#2036": "https://github.com/mendhak/gpslogger/issues/604",
+            "#2233": "https://github.com/openintents/filemanager/issues/9",
+            "#2266": "https://github.com/ojacquemart/vlilleChecker/issues/139",
+            "#2369": "https://github.com/kiwix/kiwix-android/issues/1848",
+            "#2410": "https://github.com/TheLastProject/RaiseToAnswer/issues/29",
+            "#2880": "https://github.com/quarck/CalendarNotification/issues/202",
+            "#2888": "https://github.com/TwidereProject/Twidere-Android/issues/830",
+            "#3114": "https://github.com/therealbluepandabear/PixaPencil/issues/145",
+            "#3227": "https://github.com/openhab/openhab-android/issues/659",
+            "#3248": "https://github.com/patzly/grocy-android/issues/116",
+            "#3363": "https://github.com/quarck/CalendarNotification/issues/198",
+            "#3382": "https://github.com/gedoor/legado/issues/2378",
+            "#3418": "https://github.com/AnySoftKeyboard/AnySoftKeyboard/issues/592",
+            "#3571": "https://github.com/dharmaseed/dharmaseed-android/issues/10",
+            "#3580": "https://github.com/thundernest/k-9/issues/6182",
+            "#3607": "https://github.com/syncthing/syncthing-android/issues/805",
+            "#3646": "https://github.com/fossasia/open-event-organizer-android/issues/1506",
+            "#3877": "https://github.com/moezbhatti/qksms/issues/88",
+            "#3912": "https://github.com/therealbluepandabear/PixaPencil/issues/56",
+            "#3931": "https://github.com/TeamAmaze/AmazeFileManager/issues/1794",
+            "#4288": "https://github.com/SensorApps/Sensors2OSC/issues/20",
+            "#4298": "https://github.com/Infomaniak/android-kDrive/issues/620",
+            "#4367": "https://github.com/martykan/forecastie/issues/283",
+            "#4456": "https://github.com/aarddict/android/issues/8",
+            "#4482": "https://github.com/LivingWithHippos/unchained-android/issues/17",
+            "#4663": "https://github.com/iSoron/uhabits/issues/503",
+            "#4667": "https://github.com/ylogx/wordpowermadeeasy/issues/2",
+            "#4940": "https://github.com/fossasia/badge-magic-android/issues/130",
+            "#5059": "https://github.com/OEP/rainwave-android/issues/31",
+            "#5116": "https://github.com/thundernest/k-9/issues/6446",
+            "#5246": "https://github.com/spacecowboy/NotePad/issues/181",
+            "#5284": "https://github.com/segler-alex/RadioDroid/issues/240",
+            "#5297": "https://github.com/commons-app/apps-android-commons/issues/1430"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "High color contrast between background and foreground content",
+        "num_bugs": 48,
+        "links": {
+            "#141": "https://github.com/iSoron/uhabits/issues/757",
+            "#460": "https://github.com/NeoApplications/Neo-Backup/issues/464",
+            "#462": "https://github.com/CatimaLoyalty/Android/issues/22",
+            "#515": "https://github.com/hauke96/GeoNotes/issues/38",
+            "#540": "https://github.com/tasks/tasks/issues/448",
+            "#756": "https://github.com/mmazzarolo/breathly-app/issues/15",
+            "#913": "https://github.com/dmfs/opentasks/issues/3",
+            "#923": "https://github.com/git-touch/git-touch/issues/22",
+            "#1163": "https://github.com/theblackwidower/KanaQuiz/issues/7",
+            "#1505": "https://github.com/lesspass/lesspass/issues/666",
+            "#1873": "https://github.com/SubstanceMobile/GEM/issues/26",
+            "#1930": "https://github.com/stefan-niedermann/nextcloud-notes/issues/1215",
+            "#1946": "https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/2289",
+            "#2396": "https://github.com/TwidereProject/Twidere-Android/issues/438",
+            "#2499": "https://github.com/LinwoodCloud/dev_doctor/issues/13",
+            "#2537": "https://github.com/jahirfiquitiva/Kuper/issues/18",
+            "#2554": "https://github.com/nutritionfactsorg/daily-dozen-android/issues/50",
+            "#2663": "https://github.com/punksta/volume_control_android/issues/7",
+            "#2746": "https://github.com/PaulWoitaschek/Voice/issues/694",
+            "#2805": "https://github.com/MCMrARM/revolution-irc/issues/207",
+            "#2831": "https://github.com/AdrienPoupa/VinylMusicPlayer/issues/266",
+            "#2970": "https://github.com/kalaspuffar/secure-quick-reliable-login/issues/306",
+            "#2977": "https://github.com/mpv-android/mpv-android/issues/459",
+            "#2988": "https://github.com/safe-global/safe-android/issues/1854",
+            "#3045": "https://github.com/bottiger/SoundWaves/issues/59",
+            "#3064": "https://github.com/stefan-niedermann/nextcloud-notes/issues/501",
+            "#3088": "https://github.com/gsantner/markor/issues/250",
+            "#3210": "https://github.com/bottiger/SoundWaves/issues/43",
+            "#3231": "https://github.com/wiglenet/wigle-wifi-wardriving/issues/475",
+            "#3244": "https://github.com/ukanth/afwall/issues/1066",
+            "#3253": "https://github.com/NeoApplications/Neo-Backup/issues/623",
+            "#3319": "https://github.com/stefan-niedermann/nextcloud-deck/issues/1180",
+            "#3326": "https://github.com/Haptic-Apps/Slide/issues/2863",
+            "#3344": "https://github.com/helloworld1/FreeOTPPlus/issues/175",
+            "#3569": "https://github.com/TwidereProject/TwidereX-Android/issues/54",
+            "#3828": "https://github.com/enricocid/Music-Player-GO/issues/309",
+            "#3884": "https://github.com/bottiger/SoundWaves/issues/86",
+            "#3917": "https://github.com/zoff99/ToxAndroidRefImpl/issues/213",
+            "#4026": "https://github.com/rozPierog/Cofi/issues/22",
+            "#4215": "https://github.com/nextcloud/news-android/issues/290",
+            "#4234": "https://github.com/wallabag/android-app/issues/558",
+            "#4717": "https://github.com/lucasnlm/antimine-android/issues/290",
+            "#4720": "https://github.com/iSoron/uhabits/issues/467",
+            "#5065": "https://github.com/Etar-Group/Etar-Calendar/issues/466",
+            "#5101": "https://github.com/marksuth/indigenous-android/issues/349",
+            "#5130": "https://github.com/zhanghai/MaterialFiles/issues/403",
+            "#5302": "https://github.com/TrianguloY/UrlChecker/issues/29",
+            "#5309": "https://github.com/shadowsocks/shadowsocks-android/issues/2037"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "No blank screen",
+        "num_bugs": 48,
+        "links": {
+            "#62": "https://github.com/commons-app/apps-android-commons/issues/2088",
+            "#67": "https://github.com/mozilla-mobile/focus-android/issues/2879",
+            "#153": "https://github.com/ankidroid/Anki-Android/issues/10584",
+            "#257": "https://github.com/falzonv/discreet-launcher/issues/1",
+            "#333": "https://github.com/schaal/ocreader/issues/9",
+            "#359": "https://github.com/AllanWang/Frost-for-Facebook/issues/1593",
+            "#371": "https://github.com/fossasia/open-event-attendee-android/issues/1955",
+            "#404": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3180",
+            "#444": "https://github.com/Docile-Alligator/Infinity-For-Reddit/issues/1057",
+            "#546": "https://github.com/Swati4star/Images-to-PDF/issues/100",
+            "#640": "https://github.com/daper/nextcloud-passwords-app/issues/44",
+            "#847": "https://github.com/NightWhistler/PageTurner/issues/466",
+            "#944": "https://github.com/AllanWang/Frost-for-Facebook/issues/1832",
+            "#1107": "https://github.com/wireapp/wire-android/issues/3021",
+            "#1153": "https://github.com/gateship-one/odyssey/issues/27",
+            "#1490": "https://github.com/JunkFood02/Seal/issues/177",
+            "#1553": "https://github.com/eolwral/OSMonitor/issues/16",
+            "#1634": "https://github.com/SimpleMobileTools/Simple-Dialer/issues/279",
+            "#1784": "https://github.com/Haptic-Apps/Slide/issues/1449",
+            "#1840": "https://github.com/OpenArchive/Save-app-android/issues/343",
+            "#1855": "https://github.com/LemmurOrg/lemmur/issues/120",
+            "#1864": "https://github.com/CookieJarApps/SmartCookieWeb/issues/63",
+            "#2000": "https://github.com/fossasia/badge-magic-android/issues/598",
+            "#2004": "https://github.com/OpenArchive/Save-app-android/issues/250",
+            "#2026": "https://github.com/TeamNewPipe/NewPipe/issues/9266",
+            "#2101": "https://github.com/invoiceninja/admin-portal/issues/345",
+            "#2133": "https://github.com/cyclestreets/android/issues/398",
+            "#2142": "https://github.com/SkyTubeTeam/SkyTube/issues/502",
+            "#2400": "https://github.com/fossasia/badge-magic-android/issues/588",
+            "#2428": "https://github.com/zulip/zulip-mobile/issues/4407",
+            "#2444": "https://github.com/Techno-Disaster/tldr-flutter/issues/24",
+            "#2492": "https://github.com/twireapp/Twire/issues/261",
+            "#2591": "https://github.com/flex3r/DankChat/issues/216",
+            "#2644": "https://github.com/TwidereProject/TwidereX-Android/issues/75",
+            "#2797": "https://github.com/samuelclay/NewsBlur/issues/1347",
+            "#2809": "https://github.com/ManeraKai/simplytranslate_mobile/issues/114",
+            "#2910": "https://github.com/commons-app/apps-android-commons/issues/4971",
+            "#2922": "https://github.com/SkyTubeTeam/SkyTube/issues/448",
+            "#3215": "https://github.com/fossasia/pslab-android/issues/2097",
+            "#3386": "https://github.com/SecUSo/privacy-friendly-todo-list/issues/12",
+            "#3479": "https://github.com/walleth/walleth/issues/296",
+            "#3541": "https://github.com/OpenArchive/Save-app-android/issues/291",
+            "#3839": "https://github.com/JakeLane/Toffeed/issues/13",
+            "#4324": "https://github.com/KRTirtho/spotube/issues/157",
+            "#4469": "https://github.com/openboard-team/openboard/issues/176",
+            "#4960": "https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/2006",
+            "#5156": "https://github.com/pacien/tincapp/issues/89",
+            "#5180": "https://github.com/TeamNewPipe/NewPipe/issues/9409"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "Texts should not be cropped",
+        "num_bugs": 44,
+        "links": {
+            "#80": "https://github.com/PhenoApps/Field-Book/issues/131",
+            "#282": "https://github.com/SimpleMobileTools/Simple-Dialer/issues/373",
+            "#377": "https://github.com/zhanghai/MaterialFiles/issues/298",
+            "#423": "https://github.com/status-im/status-mobile/issues/12507",
+            "#779": "https://github.com/SkyTubeTeam/SkyTube/issues/895",
+            "#1202": "https://github.com/devgianlu/Aria2App/issues/140",
+            "#1217": "https://github.com/y20k/transistor/issues/254",
+            "#1368": "https://github.com/zulip/zulip-mobile/issues/3318",
+            "#1377": "https://github.com/lichess-org/lichobile/issues/2110",
+            "#1413": "https://github.com/yuriykulikov/AlarmClock/issues/369",
+            "#1617": "https://github.com/cvzi/darkmodewallpaper/issues/32",
+            "#1736": "https://github.com/kabouzeid/Phonograph/issues/60",
+            "#1799": "https://github.com/nikolajakshic/dagger/issues/21",
+            "#1822": "https://github.com/osmandapp/OsmAnd/issues/15165",
+            "#1852": "https://github.com/beat-feet/beat-feet/issues/69",
+            "#2106": "https://github.com/BennyKok/PxerStudio/issues/26",
+            "#2568": "https://github.com/fossasia/open-event-attendee-android/issues/2592",
+            "#2621": "https://github.com/jonjomckay/fritter/issues/389",
+            "#2761": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/1695",
+            "#2788": "https://github.com/francoisfds/BikeSharingHub/issues/44",
+            "#3035": "https://github.com/oxen-io/session-android/issues/839",
+            "#3164": "https://github.com/TeamWalrus/Walrus/issues/50",
+            "#3166": "https://github.com/AntennaPod/AntennaPod/issues/4327",
+            "#3313": "https://github.com/syphon-org/syphon/issues/342",
+            "#3462": "https://github.com/trynoice/android-app/issues/505",
+            "#3511": "https://github.com/openMF/mifos-mobile/issues/251",
+            "#3572": "https://github.com/barbeau/gpstest/issues/435",
+            "#3656": "https://github.com/koreader/koreader/issues/9102",
+            "#3712": "https://github.com/Haptic-Apps/Slide/issues/2663",
+            "#3798": "https://github.com/kabouzeid/Phonograph/issues/481",
+            "#4049": "https://github.com/nextcloud/news-android/issues/393",
+            "#4074": "https://github.com/fossasia/badge-magic-android/issues/106",
+            "#4091": "https://github.com/beat-feet/beat-feet/issues/77",
+            "#4241": "https://github.com/FredHappyface/Android.EweSticker/issues/24",
+            "#4343": "https://github.com/KotatsuApp/Kotatsu/issues/197",
+            "#4410": "https://github.com/ruuvi/com.ruuvi.station/issues/852",
+            "#4610": "https://github.com/fython/Blackbulb/issues/33",
+            "#4698": "https://github.com/btimofeev/instead-launcher-android/issues/15",
+            "#4865": "https://github.com/SimpleMobileTools/Simple-Clock/issues/53",
+            "#4883": "https://github.com/foobnix/LibreraReader/issues/652",
+            "#4955": "https://github.com/CatimaLoyalty/Android/issues/636",
+            "#5018": "https://github.com/simenheg/simple-chess-clock/issues/13",
+            "#5225": "https://github.com/streetcomplete/StreetComplete/issues/4447",
+            "#5317": "https://github.com/Crazy-Marvin/VacationDays/issues/63"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Apps should respond to user interactions via actionable UI elements",
+        "num_bugs": 33,
+        "links": {
+            "#142": "https://github.com/juha-h/baresip-studio/issues/16",
+            "#218": "https://github.com/SimpleMobileTools/Simple-File-Manager/issues/173",
+            "#661": "https://github.com/AllanWang/Frost-for-Facebook/issues/1808",
+            "#1323": "https://github.com/kubenav/kubenav/issues/243",
+            "#1346": "https://github.com/safe-global/safe-android/issues/1496",
+            "#1441": "https://github.com/Neamar/KISS/issues/1781",
+            "#1452": "https://github.com/fengberd/PocketServer/issues/95",
+            "#1646": "https://github.com/xgouchet/Stanley/issues/28",
+            "#1765": "https://github.com/AdguardTeam/ContentBlocker/issues/28",
+            "#1863": "https://github.com/vanilla-music/vanilla/issues/459",
+            "#2043": "https://github.com/smarek/Simple-Dilbert/issues/45",
+            "#2107": "https://github.com/marksuth/indigenous-android/issues/340",
+            "#2202": "https://github.com/agateau/pixelwheels/issues/119",
+            "#2258": "https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3118",
+            "#2417": "https://github.com/dotWee/MicroPinner/issues/17",
+            "#2726": "https://github.com/HassanHeydariNasab/defendo/issues/59",
+            "#3004": "https://github.com/tigase/stork/issues/37",
+            "#3264": "https://github.com/status-im/status-mobile/issues/14388",
+            "#3291": "https://github.com/OpenTracksApp/OpenTracks/issues/727",
+            "#3516": "https://github.com/AdAway/AdAway/issues/2651",
+            "#3644": "https://github.com/SimpleMobileTools/Simple-Clock/issues/15",
+            "#3670": "https://github.com/QuantumBadger/RedReader/issues/504",
+            "#4195": "https://github.com/smarek/Simple-Dilbert/issues/35",
+            "#4223": "https://github.com/mendhak/gpslogger/issues/209",
+            "#4286": "https://github.com/UnevenSoftware/LeafPic/issues/539",
+            "#4333": "https://github.com/status-im/status-mobile/issues/13887",
+            "#4461": "https://github.com/moezbhatti/qksms/issues/1511",
+            "#4706": "https://github.com/fossasia/pslab-android/issues/2092",
+            "#4898": "https://github.com/mendhak/gpslogger/issues/51",
+            "#4987": "https://github.com/simple-last-fm-scrobbler/sls/issues/275",
+            "#5167": "https://github.com/lposidon/posidonLauncher/issues/102",
+            "#5236": "https://github.com/AmanoTeam/UnalixAndroid/issues/3",
+            "#5342": "https://github.com/twireapp/Twire/issues/143"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Back navigation should meet expectation",
+        "num_bugs": 30,
+        "links": {
+            "#63": "https://github.com/k9mail/k-9/issues/3971",
+            "#70": "https://github.com/Swati4star/Images-to-PDF/issues/602",
+            "#275": "https://github.com/bitcraze/crazyflie-android-client/issues/14",
+            "#297": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4320",
+            "#1075": "https://github.com/dhis2/dhis2-android-eventcapture/issues/60",
+            "#1229": "https://github.com/moezbhatti/qksms/issues/727",
+            "#1250": "https://github.com/mapzen/eraser-map/issues/626",
+            "#1720": "https://github.com/fossasia/susi_android/issues/1916",
+            "#1766": "https://github.com/simple-last-fm-scrobbler/sls/issues/534",
+            "#1869": "https://github.com/Swati4star/Images-to-PDF/issues/602",
+            "#1870": "https://github.com/tasks/tasks/issues/152",
+            "#2053": "https://github.com/AndBible/and-bible/issues/1460",
+            "#2090": "https://github.com/ukanth/afwall/issues/371",
+            "#2203": "https://github.com/moko256/twitlatte/issues/26",
+            "#2238": "https://github.com/velas/mobile-wallet/issues/39",
+            "#2293": "https://github.com/iitc-project/ingress-intel-total-conversion/issues/363",
+            "#2404": "https://github.com/tuskyapp/Tusky/issues/620",
+            "#2737": "https://github.com/velas/mobile-wallet/issues/41",
+            "#2738": "https://github.com/Chooloo/koler/issues/34",
+            "#2961": "https://github.com/akvo/akvo-rsr-up/issues/88",
+            "#3007": "https://github.com/osmandapp/OsmAnd/issues/13584",
+            "#3117": "https://github.com/ZeevoX/Ocquarium/issues/56",
+            "#3167": "https://github.com/medic/cht-android/issues/2",
+            "#3906": "https://github.com/beemdevelopment/Aegis/issues/118",
+            "#3989": "https://github.com/fossasia/susi_android/issues/2136",
+            "#4022": "https://github.com/kalaspuffar/secure-quick-reliable-login/issues/174",
+            "#4342": "https://github.com/qii/weiciyuan/issues/107",
+            "#4459": "https://github.com/fossasia/neurolab-android/issues/468",
+            "#4560": "https://github.com/NightWhistler/PageTurner/issues/474",
+            "#5157": "https://github.com/TakWolf/CNode-Material-Design/issues/12"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "Visible views should not overlap",
+        "num_bugs": 24,
+        "links": {
+            "#206": "https://github.com/ruuvi/com.ruuvi.station/issues/458",
+            "#514": "https://github.com/DecentralizedAmateurPagingNetwork/DAPNETApp/issues/72",
+            "#537": "https://github.com/konradrenner/kolabnotes-android/issues/25",
+            "#1597": "https://github.com/Fr4gorSoftware/SecScanQR/issues/146",
+            "#1808": "https://github.com/arduia/ProExpense/issues/12",
+            "#1969": "https://github.com/johan12345/EVMap/issues/253",
+            "#2277": "https://github.com/llaske/sugarizer/issues/383",
+            "#2437": "https://github.com/lucasnlm/antimine-android/issues/307",
+            "#2500": "https://github.com/PaulWoitaschek/Voice/issues/309",
+            "#2521": "https://github.com/fossasia/open-event-attendee-android/issues/2059",
+            "#2522": "https://github.com/SamAmco/track-and-graph/issues/57",
+            "#2643": "https://github.com/DroidsOnRoids/Toast-App/issues/150",
+            "#2870": "https://github.com/horizontalsystems/unstoppable-wallet-android/issues/2721",
+            "#2909": "https://github.com/deltachat/deltachat-android/issues/2195",
+            "#3419": "https://github.com/CatimaLoyalty/Android/issues/542",
+            "#3613": "https://github.com/BeamMW/android-wallet/issues/492",
+            "#4306": "https://github.com/project-travel-mate/Travel-Mate/issues/513",
+            "#4339": "https://github.com/metrodroid/metrodroid/issues/744",
+            "#4475": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4212",
+            "#4638": "https://github.com/SecUSo/privacy-friendly-sudoku/issues/60",
+            "#4753": "https://github.com/Swordfish90/Lemuroid/issues/153",
+            "#4809": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/2274",
+            "#4985": "https://github.com/organicmaps/organicmaps/issues/937",
+            "#5296": "https://github.com/ferraridamiano/ConverterNOW/issues/39"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "No infinite loading",
+        "num_bugs": 21,
+        "links": {
+            "#580": "https://github.com/sreichholf/dreamDroid/issues/44",
+            "#652": "https://github.com/ligi/gobandroid/issues/142",
+            "#659": "https://github.com/deltachat/deltachat-android/issues/1579",
+            "#701": "https://github.com/organicmaps/organicmaps/issues/699",
+            "#743": "https://github.com/yairm210/Unciv/issues/7515",
+            "#1026": "https://github.com/itsdrnoob/DataMonitor/issues/53",
+            "#1191": "https://github.com/organicmaps/organicmaps/issues/2900",
+            "#1252": "https://github.com/project-travel-mate/Travel-Mate/issues/664",
+            "#1671": "https://github.com/commons-app/apps-android-commons/issues/5002",
+            "#2336": "https://github.com/crux-bphc/CMS-Android/issues/127",
+            "#2373": "https://github.com/kiwix/kiwix-android/issues/1713",
+            "#2453": "https://github.com/invoiceninja/admin-portal/issues/30",
+            "#2613": "https://github.com/haiwen/seadroid/issues/186",
+            "#2963": "https://github.com/syphon-org/syphon/issues/392",
+            "#3427": "https://github.com/Blockstream/green_android/issues/56",
+            "#3608": "https://github.com/eduvpn/android/issues/233",
+            "#4498": "https://github.com/deltachat/deltachat-android/issues/1994",
+            "#4764": "https://github.com/SkyTubeTeam/SkyTube/issues/1054",
+            "#5253": "https://github.com/austinried/subtracks/issues/72",
+            "#5288": "https://github.com/chandevel/Clover/issues/45",
+            "#5303": "https://github.com/stefan-niedermann/nextcloud-deck/issues/680"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "All visible texts should be translated together",
+        "num_bugs": 16,
+        "links": {
+            "#398": "https://github.com/Keidan/HexViewer/issues/86",
+            "#1896": "https://github.com/yanus171/Handy-News-Reader/issues/248",
+            "#1898": "https://github.com/iSoron/uhabits/issues/800",
+            "#2942": "https://github.com/mvmike/min-cal-widget/issues/58",
+            "#2960": "https://github.com/invoiceninja/admin-portal/issues/179",
+            "#3201": "https://github.com/UriahShaulMandel/BaldPhone/issues/142",
+            "#3468": "https://github.com/Intelehealth/Android-Mobile-Client/issues/521",
+            "#3810": "https://github.com/ruleant/getback_gps/issues/185",
+            "#3817": "https://github.com/lichess-org/lichobile/issues/1986",
+            "#4121": "https://github.com/martykan/forecastie/issues/504",
+            "#4254": "https://github.com/MarquisLP/World-Scribe/issues/26",
+            "#4525": "https://github.com/AdguardTeam/ContentBlocker/issues/163",
+            "#4710": "https://github.com/ThirtyDegreesRay/OpenHub/issues/49",
+            "#5044": "https://github.com/Marmo/debitum/issues/83",
+            "#5135": "https://github.com/bottiger/SoundWaves/issues/9",
+            "#5295": "https://github.com/Kunzisoft/KeePassDX/issues/1227"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Sorting of list items matches the sorting criteria",
+        "num_bugs": 15,
+        "links": {
+            "#921": "https://github.com/lgallard/qBittorrent-Controller/issues/235",
+            "#1230": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/1913",
+            "#1831": "https://github.com/beemdevelopment/Aegis/issues/907",
+            "#2010": "https://github.com/eolwral/OSMonitor/issues/17",
+            "#2112": "https://github.com/LivingWithHippos/unchained-android/issues/240",
+            "#2301": "https://github.com/Haptic-Apps/Slide/issues/2926",
+            "#2347": "https://github.com/SimpleMobileTools/Simple-Contacts/issues/505",
+            "#2727": "https://github.com/zhanghai/MaterialFiles/issues/313",
+            "#3790": "https://github.com/MuntashirAkon/AppManager/issues/842",
+            "#4291": "https://github.com/tachiyomiorg/tachiyomi/issues/7247",
+            "#4544": "https://github.com/vanilla-music/vanilla/issues/479",
+            "#4569": "https://github.com/AEFeinstein/mtg-familiar/issues/579",
+            "#4796": "https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/2243",
+            "#4924": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/1545",
+            "#5147": "https://github.com/home-assistant/android/issues/2703"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The modified settings by the user should be remembered correctly",
+        "num_bugs": 14,
+        "links": {
+            "#19": "https://github.com/moezbhatti/qksms/issues/1124",
+            "#233": "https://github.com/Darkempire78/OpenCalc/issues/10",
+            "#253": "https://github.com/Waboodoo/Status-Bar-Tachometer/issues/13",
+            "#314": "https://github.com/javiersantos/WhatsAppBetaUpdater/issues/27",
+            "#489": "https://github.com/MCMrARM/revolution-irc/issues/77",
+            "#995": "https://github.com/yanus171/Handy-News-Reader/issues/544",
+            "#1119": "https://github.com/anselm94/Torchie-Android/issues/25",
+            "#1264": "https://github.com/MuntashirAkon/AppManager/issues/623",
+            "#1446": "https://github.com/vauvenal5/yaga/issues/38",
+            "#1989": "https://github.com/moezbhatti/qksms/issues/78",
+            "#3173": "https://github.com/syncthing/syncthing-android/issues/911",
+            "#3267": "https://github.com/FunkyMuse/Vigilante/issues/244",
+            "#3360": "https://github.com/Dar9586/NClientV2/issues/185",
+            "#5251": "https://github.com/ankidroid/Anki-Android/issues/9947"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Deleted items should not reappear",
+        "num_bugs": 13,
+        "links": {
+            "#245": "https://github.com/OpenLauncherTeam/openlauncher/issues/342",
+            "#1763": "https://github.com/Kunzisoft/KeePassDX/issues/1092",
+            "#1833": "https://github.com/clementine-player/Android-Remote/issues/31",
+            "#1987": "https://github.com/erickok/transdroid/issues/56",
+            "#2162": "https://github.com/BijoySingh/Scarlet-Notes/issues/68",
+            "#2889": "https://github.com/syncthing/syncthing-lite/issues/81",
+            "#2923": "https://github.com/ScreamingHawk/phone-saver/issues/84",
+            "#2951": "https://github.com/tuskyapp/Tusky/issues/471",
+            "#2995": "https://github.com/AdrienPoupa/VinylMusicPlayer/issues/313",
+            "#3718": "https://github.com/tasks/tasks/issues/140",
+            "#4282": "https://github.com/SimpleMobileTools/Simple-Calendar/issues/908",
+            "#4586": "https://github.com/eduvpn/android/issues/99",
+            "#4978": "https://github.com/llaske/sugarizer/issues/854"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The theme settings should be consistently applied to all UI components",
+        "num_bugs": 13,
+        "links": {
+            "#124": "https://github.com/fossasia/phimpme-android/issues/2362",
+            "#1374": "https://github.com/syphon-org/syphon/issues/270",
+            "#1629": "https://github.com/wallabag/android-app/issues/869",
+            "#1693": "https://github.com/iSoron/uhabits/issues/567",
+            "#2104": "https://github.com/rob729/Quiet_Hours/issues/40",
+            "#2215": "https://github.com/andOTP/andOTP/issues/408",
+            "#2239": "https://github.com/mueller-ma/Coffee/issues/153",
+            "#2352": "https://github.com/tachiyomiorg/tachiyomi/issues/8257",
+            "#2717": "https://github.com/fossasia/susi_android/issues/2130",
+            "#2860": "https://github.com/thuryn/your-local-weather/issues/39",
+            "#3196": "https://github.com/koreader/koreader/issues/6845",
+            "#3643": "https://github.com/Slion/Fulguris/issues/308",
+            "#5069": "https://github.com/iSoron/uhabits/issues/858"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "UI components should not be obscured",
+        "num_bugs": 12,
+        "links": {
+            "#89": "https://github.com/kiwix/kiwix-android/issues/555",
+            "#213": "https://github.com/martykan/forecastie/issues/431",
+            "#415": "https://github.com/OpenArchive/Save-app-android/issues/142",
+            "#915": "https://github.com/commons-app/apps-android-commons/issues/1399",
+            "#1183": "https://github.com/shadowsocks/shadowsocks-android/issues/1553",
+            "#2022": "https://github.com/CookieJarApps/SmartCookieWeb/issues/121",
+            "#2188": "https://github.com/SteamGifts/SteamGifts/issues/8",
+            "#2346": "https://github.com/libre-tube/LibreTube/issues/1597",
+            "#2387": "https://github.com/Haptic-Apps/Slide/issues/2873",
+            "#3194": "https://github.com/andOTP/andOTP/issues/95",
+            "#3958": "https://github.com/CatimaLoyalty/Android/issues/134",
+            "#4508": "https://github.com/x13a/Silence/issues/2"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Duplicated buttons or menu items",
+        "num_bugs": 12,
+        "links": {
+            "#302": "https://github.com/geopaparazzi/geopaparazzi/issues/622",
+            "#570": "https://github.com/z3r0c00l-2k/AquaDroid/issues/61",
+            "#1002": "https://github.com/lihenggui/blocker/issues/75",
+            "#1016": "https://github.com/JunkFood02/Seal/issues/134",
+            "#1316": "https://github.com/falzonv/discreet-launcher/issues/14",
+            "#1510": "https://github.com/Chooloo/koler/issues/347",
+            "#2598": "https://github.com/chaldea-center/chaldea/issues/58",
+            "#3103": "https://github.com/zulip/zulip-mobile/issues/2622",
+            "#3256": "https://github.com/invoiceninja/admin-portal/issues/207",
+            "#3693": "https://github.com/daneren2005/Subsonic/issues/648",
+            "#4168": "https://github.com/nucleus-ffm/foss_warn/issues/45",
+            "#5299": "https://github.com/KRTirtho/spotube/issues/150"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Language settings should affect the UI",
+        "num_bugs": 11,
+        "links": {
+            "#18": "https://github.com/andOTP/andOTP/issues/567",
+            "#22": "https://github.com/beemdevelopment/Aegis/issues/287",
+            "#971": "https://github.com/forrestguice/SuntimesWidget/issues/197",
+            "#1312": "https://github.com/ankidroid/Anki-Android/issues/11744",
+            "#2458": "https://github.com/andOTP/andOTP/issues/112",
+            "#2563": "https://github.com/organicmaps/organicmaps/issues/1339",
+            "#2804": "https://github.com/Fox2Code/FoxMagiskModuleManager/issues/163",
+            "#2980": "https://github.com/yanus171/Handy-News-Reader/issues/197",
+            "#3022": "https://github.com/calcitem/Sanmill/issues/352",
+            "#4240": "https://github.com/patzly/grocy-android/issues/364",
+            "#4674": "https://github.com/federicoiosue/Omni-Notes/issues/460"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Clicking on a link or hyperlink should navigate to the corresponding webpage",
+        "num_bugs": 11,
+        "links": {
+            "#306": "https://github.com/SapuSeven/BetterUntis/issues/69",
+            "#413": "https://github.com/AndBible/and-bible/issues/2148",
+            "#876": "https://github.com/dmfs/opentasks/issues/895",
+            "#925": "https://github.com/Haptic-Apps/Slide/issues/1191",
+            "#1259": "https://github.com/mkulesh/onpc/issues/249",
+            "#1656": "https://github.com/tutao/tutanota/issues/4372",
+            "#1667": "https://github.com/flex3r/DankChat/issues/105",
+            "#1920": "https://github.com/Fox2Code/FoxMagiskModuleManager/issues/132",
+            "#2155": "https://github.com/Livinglist/Hacki/issues/33",
+            "#4437": "https://github.com/stefan-niedermann/nextcloud-deck/issues/1013",
+            "#4010": "https://github.com/LemmurOrg/lemmur/issues/165"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Save button should work",
+        "num_bugs": 10,
+        "links": {
+            "#5": "https://github.com/gsantner/markor/issues/331",
+            "#50": "https://github.com/codinguser/gnucash-android/issues/620",
+            "#55": "https://github.com/cohenadair/anglers-log/issues/151",
+            "#56": "https://github.com/cohenadair/anglers-log/issues/347",
+            "#156": "https://github.com/davidhealey/waistline/issues/2",
+            "#250": "https://github.com/oliexdev/openScale/issues/270",
+            "#924": "https://github.com/y20k/trackbook/issues/81",
+            "#2222": "https://github.com/tasks/tasks/issues/1350",
+            "#2297": "https://github.com/tasks/tasks/issues/101",
+            "#4860": "https://github.com/OpenTracksApp/OpenTracks/issues/435"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Text content should not be truncated",
+        "num_bugs": 8,
+        "links": {
+            "#117": "https://github.com/barbeau/gpstest/issues/133",
+            "#478": "https://github.com/mattermost/mattermost-mobile/issues/3350",
+            "#644": "https://github.com/oxen-io/session-android/issues/129",
+            "#1961": "https://github.com/lexica/lexica/issues/220",
+            "#2391": "https://github.com/daneren2005/Subsonic/issues/711",
+            "#2395": "https://github.com/SimpleMobileTools/Simple-Notes/issues/150",
+            "#3530": "https://github.com/ScreamingHawk/phone-saver/issues/90",
+            "#3729": "https://github.com/jasoncheng/dica/issues/127"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "No garbled characters",
+        "num_bugs": 8,
+        "links": {
+            "#322": "https://github.com/jonasoreland/runnerup/issues/7",
+            "#578": "https://github.com/deep-gaurav/MusicPiped/issues/67",
+            "#1879": "https://github.com/TeamAmaze/AmazeFileManager/issues/2064",
+            "#2454": "https://github.com/syphon-org/syphon/issues/339",
+            "#2507": "https://github.com/markusfisch/BinaryEye/issues/309",
+            "#2800": "https://github.com/moezbhatti/qksms/issues/1603",
+            "#4570": "https://github.com/moezbhatti/qksms/issues/1297",
+            "#5311": "https://github.com/jellyfin/jellyfin-android/issues/523"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Keep page content when the activity is paused and resumed",
+        "num_bugs": 8,
+        "links": {
+            "#266": "https://github.com/redsolution/xabber-android/issues/493",
+            "#694": "https://github.com/kollerlukas/Camera-Roll-Android-App/issues/72",
+            "#898": "https://github.com/xbmc/xbmc/issues/19981",
+            "#1331": "https://github.com/nextcloud/news-android/issues/738",
+            "#2997": "https://github.com/dimtion/Shaarlier/issues/35",
+            "#3191": "https://github.com/trishika/DroidUPnP/issues/28",
+            "#3265": "https://github.com/konifar/droidkaigi2016/issues/204",
+            "#5228": "https://github.com/twireapp/Twire/issues/350"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Cursor position should not jump unless it is set by user",
+        "num_bugs": 7,
+        "links": {
+            "#75": "https://github.com/streetcomplete/StreetComplete/issues/1093",
+            "#95": "https://github.com/gsantner/markor/issues/162",
+            "#1731": "https://github.com/llaske/sugarizer/issues/318",
+            "#3175": "https://github.com/connectbot/connectbot/issues/80",
+            "#3860": "https://github.com/dmfs/opentasks/issues/506",
+            "#4711": "https://github.com/stefan-niedermann/nextcloud-notes/issues/558",
+            "#4871": "https://github.com/ManeraKai/simplytranslate_mobile/issues/78"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Download should work",
+        "num_bugs": 6,
+        "links": {
+            "#649": "https://github.com/SubhamTyagi/android-ocr/issues/3",
+            "#892": "https://github.com/Docile-Alligator/Infinity-For-Reddit/issues/431",
+            "#1380": "https://github.com/Shabinder/SpotiFlyer/issues/967",
+            "#2638": "https://github.com/kiwix/kiwix-android/issues/3080",
+            "#3563": "https://github.com/Shabinder/SpotiFlyer/issues/946",
+            "#4808": "https://github.com/yellowbluesky/PixivforMuzei3/issues/62"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Users should successfully receive the application notification",
+        "num_bugs": 6,
+        "links": {
+            "#1494": "https://github.com/UriahShaulMandel/BaldPhone/issues/570",
+            "#1527": "https://github.com/nitroshare/nitroshare-android/issues/37",
+            "#2024": "https://github.com/iSoron/uhabits/issues/160",
+            "#2772": "https://github.com/mozilla-mobile/fenix/issues/27355",
+            "#3165": "https://github.com/vector-im/element-android/issues/2827",
+            "#3436": "https://github.com/renyuneyun/Easer/issues/437"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Pressing the backspace key should delete one character at the cursor position",
+        "num_bugs": 6,
+        "links": {
+            "#29": "https://github.com/mozilla-mobile/focus-android/issues/3892",
+            "#34": "https://github.com/mozilla-mobile/focus-android/issues/2835",
+            "#1979": "https://github.com/florisboard/florisboard/issues/2065",
+            "#2193": "https://github.com/AnySoftKeyboard/AnySoftKeyboard/issues/2679",
+            "#4079": "https://github.com/Julow/Unexpected-Keyboard/issues/241",
+            "#4625": "https://github.com/Technion236272/2019a-TakeCare/issues/152"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The component indicating the app's status should be consistent with the actual state of the app",
+        "num_bugs": 6,
+        "links": {
+            "#93": "https://github.com/ankidroid/Anki-Android/issues/6119",
+            "#500": "https://github.com/flex3r/DankChat/issues/316",
+            "#665": "https://github.com/SimpleMobileTools/Simple-Music-Player/issues/349",
+            "#777": "https://github.com/Swati4star/Images-to-PDF/issues/479",
+            "#1175": "https://github.com/kylecorry31/Trail-Sense/issues/935",
+            "#1909": "https://github.com/y20k/transistor/issues/166"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Theme settings should affect the UI",
+        "num_bugs": 6,
+        "links": {
+            "#464": "https://github.com/jellyfin/jellyfin-androidtv/issues/1907",
+            "#891": "https://github.com/punksta/volume_control_android/issues/1",
+            "#1336": "https://github.com/MahmoudMabrok/QuranyApp/issues/14",
+            "#2219": "https://github.com/indywidualny/FaceSlim/issues/31",
+            "#2575": "https://github.com/calcitem/Sanmill/issues/328",
+            "#4104": "https://github.com/openhab/openhab-android/issues/2299"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Long pressing should work - select/deselect a item or display a menu",
+        "num_bugs": 6,
+        "links": {
+            "#2843": "https://github.com/moezbhatti/qksms/issues/448",
+            "#3932": "https://github.com/KotatsuApp/Kotatsu/issues/224",
+            "#4412": "https://github.com/chandevel/Clover/issues/523",
+            "#4492": "https://github.com/SafeSlingerProject/SafeSlinger-Android/issues/52",
+            "#4580": "https://github.com/Haptic-Apps/Slide/issues/2452",
+            "#5145": "https://github.com/Neamar/KISS/issues/1405"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Appearance settings should only affect the style but not the content",
+        "num_bugs": 6,
+        "links": {
+            "#85": "https://github.com/Automattic/simplenote-android/issues/615",
+            "#835": "https://github.com/foobnix/LibreraReader/issues/614",
+            "#1198": "https://github.com/florisboard/florisboard/issues/1607",
+            "#1636": "https://github.com/NekoX-Dev/NekoX/issues/404",
+            "#2074": "https://github.com/safe-global/safe-android/issues/1609",
+            "#4729": "https://github.com/tom-anders/Easy_xkcd/issues/262"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Text containing special characters should be displayed correctly",
+        "num_bugs": 5,
+        "links": {
+            "#454": "https://github.com/segler-alex/RadioDroid/issues/321",
+            "#505": "https://github.com/AndroidFromFrankfurt/linuxnews/issues/2",
+            "#1883": "https://github.com/NewProggie/SparkleShare-Android/issues/50",
+            "#4109": "https://github.com/CookieJarApps/SmartCookieWeb/issues/80",
+            "#4478": "https://github.com/vanilla-music/vanilla/issues/515"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "After leaving the settings page, any modifications should take effect immediately unless the UI explicitly asks users to confirm or restart for the changes to be applied",
+        "num_bugs": 5,
+        "links": {
+            "#232": "https://github.com/lexica/lexica/issues/159",
+            "#792": "https://github.com/crux-bphc/CMS-Android/issues/111",
+            "#1835": "https://github.com/greenaddress/WalletCordova/issues/11",
+            "#2658": "https://github.com/kike-canaries/canairio_android/issues/97",
+            "#3991": "https://github.com/fossasia/open-event-organizer-android/issues/1955"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The scroll position of the page should be correctly remembered",
+        "num_bugs": 5,
+        "links": {
+            "#129": "https://github.com/lfuelling/lrkFM/issues/26",
+            "#731": "https://github.com/mapzen/eraser-map/issues/778",
+            "#2066": "https://github.com/AndBible/and-bible/issues/2366",
+            "#2669": "https://github.com/SimpleMobileTools/Simple-File-Manager/issues/41",
+            "#3768": "https://github.com/JakeWharton/SdkSearch/issues/39"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "After screen rotation the layout should adapt correctly",
+        "num_bugs": 5,
+        "links": {
+            "#2309": "https://github.com/koreader/koreader/issues/9326",
+            "#2377": "https://github.com/martykan/webTube/issues/19",
+            "#2398": "https://github.com/slapperwan/gh4a/issues/23",
+            "#3927": "https://github.com/z3r0c00l-2k/AquaDroid/issues/21",
+            "#5265": "https://github.com/Docile-Alligator/Infinity-For-Reddit/issues/369"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "UI words should not be split into multiple lines",
+        "num_bugs": 5,
+        "links": {
+            "#1859": "https://github.com/Exodus-Privacy/exodus-android-app/issues/42",
+            "#2701": "https://github.com/forrestguice/SuntimesWidget/issues/306",
+            "#3245": "https://github.com/MatteCarra/AccA/issues/90",
+            "#4548": "https://github.com/NeoApplications/Neo-Backup/issues/608",
+            "#5120": "https://github.com/amake/orgro/issues/9"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When the input view loses focus or becomes invisible, the keyboard should be automatically hidden",
+        "num_bugs": 5,
+        "links": {
+            "#111": "https://github.com/Gear61/Random-Name-Picker/issues/49",
+            "#1300": "https://github.com/fossasia/badge-magic-android/issues/214",
+            "#1388": "https://github.com/commons-app/apps-android-commons/issues/3367",
+            "#2664": "https://github.com/fossasia/badge-magic-android/issues/579",
+            "#4463": "https://github.com/MobileFirstLLC/irregular-expressions/issues/42"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Should not display \"null\"",
+        "num_bugs": 5,
+        "links": {
+            "#2425": "https://github.com/celzero/rethink-app/issues/206",
+            "#2582": "https://github.com/fossasia/open-event-organizer-android/issues/700",
+            "#3096": "https://github.com/openhab/openhab-android/issues/2889",
+            "#3364": "https://github.com/jellyfin/jellyfin-androidtv/issues/1922",
+            "#4598": "https://github.com/calcitem/Sanmill/issues/471"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The video playback position should not jump",
+        "num_bugs": 4,
+        "links": {
+            "#1908": "https://github.com/libre-tube/LibreTube/issues/22",
+            "#2284": "https://github.com/mpv-android/mpv-android/issues/177",
+            "#2635": "https://github.com/jellyfin/jellyfin-android/issues/629",
+            "#3979": "https://github.com/crackededed/Xtra/issues/71"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Open the app through a push notification should redirect to the page related to that notification",
+        "num_bugs": 4,
+        "links": {
+            "#1083": "https://github.com/zulip/zulip-mobile/issues/2137",
+            "#1488": "https://github.com/zulip/zulip-mobile/issues/2591",
+            "#4828": "https://github.com/commons-app/apps-android-commons/issues/4716",
+            "#4904": "https://github.com/nextcloud/talk-android/issues/2111"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Delete button should work",
+        "num_bugs": 3,
+        "links": {
+            "#525": "https://github.com/tachiyomiorg/tachiyomi/issues/6986",
+            "#1825": "https://github.com/zulip/zulip-mobile/issues/2784",
+            "#4363": "https://github.com/vanilla-music/vanilla/issues/751"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Users should not be prompted for abnormal network environments when using in a normal network environment",
+        "num_bugs": 3,
+        "links": {
+            "#293": "https://github.com/xbrowsersync/app/issues/428",
+            "#517": "https://github.com/stefan-niedermann/nextcloud-notes/issues/537",
+            "#1665": "https://github.com/fm-sys/snapdrop-android/issues/48"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Update the page immediately after deleting an item",
+        "num_bugs": 3,
+        "links": {
+            "#2197": "https://github.com/daneren2005/Subsonic/issues/446",
+            "#2228": "https://github.com/koelleChristian/trickytripper/issues/37",
+            "#2333": "https://github.com/namlit/siteswap_generator/issues/44"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Add to favorites should work",
+        "num_bugs": 3,
+        "links": {
+            "#768": "https://github.com/seasoncalendar/seasoncalendar/issues/113",
+            "#1630": "https://github.com/AdrienPoupa/VinylMusicPlayer/issues/434",
+            "#2875": "https://github.com/nextcloud/news-android/issues/880"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The state of the button should be consistent with its actual behavior",
+        "num_bugs": 3,
+        "links": {
+            "#192": "https://github.com/lucasnlm/antimine-android/issues/354",
+            "#209": "https://github.com/frostwire/frostwire/issues/233",
+            "#222": "https://github.com/Swati4star/Images-to-PDF/issues/751"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Copy button should work",
+        "num_bugs": 3,
+        "links": {
+            "#2416": "https://github.com/ManeraKai/simplytranslate_mobile/issues/197",
+            "#3959": "https://github.com/michaelkourlas/voipms-sms-client/issues/185",
+            "#4405": "https://github.com/duckduckgo/Android/issues/1695"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Import/Export should work",
+        "num_bugs": 3,
+        "links": {
+            "#927": "https://github.com/CatimaLoyalty/Android/issues/486",
+            "#935": "https://github.com/oliexdev/openScale/issues/600",
+            "#1876": "https://github.com/haiwen/seadroid/issues/289"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Should not request permission repeatedly from users",
+        "num_bugs": 3,
+        "links": {
+            "#958": "https://github.com/keymapperorg/KeyMapper/issues/1005",
+            "#3409": "https://github.com/tasks/tasks/issues/626",
+            "#4155": "https://github.com/kaliturin/BlackList/issues/1"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Should not display the datetime of 0 timestamp (e.g. 1970-01-01)",
+        "num_bugs": 3,
+        "links": {
+            "#99": "https://github.com/codinguser/gnucash-android/issues/615",
+            "#781": "https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/2901",
+            "#4972": "https://github.com/qii/weiciyuan/issues/121"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Should be able to scroll/jump in the plackback progress bar",
+        "num_bugs": 3,
+        "links": {
+            "#1404": "https://github.com/AdrienPoupa/VinylMusicPlayer/issues/332",
+            "#3964": "https://github.com/nextcloud/news-android/issues/1048",
+            "#4932": "https://github.com/jmshrv/finamp/issues/96"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Users should not be allowed to rename to an empty string",
+        "num_bugs": 3,
+        "links": {
+            "#3909": "https://github.com/y20k/transistor/issues/322",
+            "#3925": "https://github.com/fossasia/open-event-attendee-android/issues/2107",
+            "#4138": "https://github.com/fossasia/neurolab-android/issues/600"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "After switching between landscape and portrait mode, all components should be reachable",
+        "num_bugs": 3,
+        "links": {
+            "#4708": "https://github.com/samuelclay/NewsBlur/issues/1094",
+            "#4778": "https://github.com/0xpr03/VocableTrainer-Android/issues/27",
+            "#4958": "https://github.com/beemdevelopment/Aegis/issues/476"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The changes in settings should take effect",
+        "num_bugs": 3,
+        "links": {
+            "#641": "https://github.com/osfans/trime/issues/494",
+            "#1040": "https://github.com/kaaholst/android-squeezer/issues/102",
+            "#2536": "https://github.com/Chooloo/koler/issues/326"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "i18n should work correctly",
+        "num_bugs": 3,
+        "links": {
+            "#3502": "https://github.com/osmandapp/OsmAnd/issues/14119",
+            "#3590": "https://github.com/git-xiaocao/pixiv_func_mobile/issues/28",
+            "#3791": "https://github.com/AdguardTeam/ContentBlocker/issues/32"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Passwords should not be displayed in plain text by default",
+        "num_bugs": 2,
+        "links": {
+            "#523": "https://github.com/lesspass/lesspass/issues/734",
+            "#1334": "https://github.com/floccusaddon/floccus/issues/1062"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The draft input by the user should be remembered",
+        "num_bugs": 2,
+        "links": {
+            "#1988": "https://github.com/andstatus/andstatus/issues/298",
+            "#2709": "https://github.com/iNPUTmice/Conversations/issues/2066"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Creating items should work",
+        "num_bugs": 2,
+        "links": {
+            "#1055": "https://github.com/Slion/Fulguris/issues/340",
+            "#1524": "https://github.com/syncthing/syncthing-android/issues/153"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "User login credentials should be remembered correctly",
+        "num_bugs": 2,
+        "links": {
+            "#1042": "https://github.com/tutao/tutanota/issues/4441",
+            "#1258": "https://github.com/lgallard/qBittorrent-Controller/issues/117"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The orientation of the saved photo should be consistent with the orientation at the time of taking the photo",
+        "num_bugs": 2,
+        "links": {
+            "#400": "https://github.com/SimpleMobileTools/Simple-Camera/issues/171",
+            "#2358": "https://github.com/rosuH/EasyWatermark/issues/41"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When renaming a file, it should not overwrite an existing file with the same name",
+        "num_bugs": 2,
+        "links": {
+            "#310": "https://github.com/nextcloud/talk-android/issues/2109",
+            "#1549": "https://github.com/android-password-store/Android-Password-Store/issues/1285"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The application status displayed in the push notification should be synchronized and consistent with the actual status",
+        "num_bugs": 2,
+        "links": {
+            "#621": "https://github.com/kabouzeid/Phonograph/issues/405",
+            "#4994": "https://github.com/y20k/transistor/issues/271"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The screen should not automatically turn off when playing videos",
+        "num_bugs": 2,
+        "links": {
+            "#2132": "https://github.com/TwidereProject/Twidere-Android/issues/861",
+            "#4380": "https://github.com/jonjomckay/fritter/issues/219"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The widget clock and the system clock should be consistent",
+        "num_bugs": 2,
+        "links": {
+            "#522": "https://github.com/martykan/forecastie/issues/348",
+            "#5261": "https://github.com/falzonv/discreet-launcher/issues/141"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "the touch input and the UI of the app should not be misaligned",
+        "num_bugs": 2,
+        "links": {
+            "#698": "https://github.com/koreader/koreader/issues/9742",
+            "#873": "https://github.com/lichess-org/lichobile/issues/1956"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Dialogs or snackbars should stay long enough for users to read or operate",
+        "num_bugs": 2,
+        "links": {
+            "#311": "https://github.com/MarcusWolschon/osmeditor4android/issues/1142",
+            "#634": "https://github.com/Kunzisoft/KeePassDX/issues/725"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Search function should work",
+        "num_bugs": 2,
+        "links": {
+            "#383": "https://github.com/AllanWang/Frost-for-Facebook/issues/1374",
+            "#3062": "https://github.com/ZeeRooo/MaterialFBook/issues/37"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "A scrollable page should prevent further scrolling when scrolled to the bottom",
+        "num_bugs": 2,
+        "links": {
+            "#1538": "https://github.com/jmshrv/finamp/issues/79",
+            "#3024": "https://github.com/vmiklos/plees-tracker/issues/162"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Upload pictures through the camera should work",
+        "num_bugs": 2,
+        "links": {
+            "#43": "https://github.com/Swati4star/Images-to-PDF/issues/510",
+            "#78": "https://github.com/alexstyl/Memento-Calendar/issues/168"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "The keyboard should not obstruct the cursor position",
+        "num_bugs": 2,
+        "links": {
+            "#824": "https://github.com/llaske/sugarizer/issues/739",
+            "#4283": "https://github.com/indywidualny/FaceSlim/issues/98"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When set to follow the system theme, changing the system theme should result in a corresponding change in the application theme",
+        "num_bugs": 2,
+        "links": {
+            "#2697": "https://github.com/mozilla-mobile/fenix/issues/27568",
+            "#3659": "https://github.com/duckduckgo/Android/issues/1939"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The copied content should be the same as the content in the clipboard",
+        "num_bugs": 2,
+        "links": {
+            "#170": "https://github.com/zulip/zulip-mobile/issues/4107",
+            "#732": "https://github.com/Keidan/HexViewer/issues/51"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Account switch should work",
+        "num_bugs": 2,
+        "links": {
+            "#375": "https://github.com/owncloud/android/issues/2626",
+            "#1152": "https://github.com/Haptic-Apps/Slide/issues/2526"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Upload file should work",
+        "num_bugs": 1,
+        "links": {
+            "#4346": "https://github.com/stefan-niedermann/nextcloud-deck/issues/550"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The cursor color should not be the same as the background color",
+        "num_bugs": 1,
+        "links": {
+            "#1109": "https://github.com/indrora/Atomic/issues/12"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The keyboard should not be hidden unless the user performs operations other than keyboard input",
+        "num_bugs": 1,
+        "links": {
+            "#1559": "https://github.com/bk138/multivnc/issues/141"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The date range field should not allow the start date to be later than the end date",
+        "num_bugs": 1,
+        "links": {
+            "#823": "https://github.com/openMF/mifos-mobile/issues/167"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Before the image upload task is actually completed, users should be prevented from exiting the page",
+        "num_bugs": 1,
+        "links": {
+            "#303": "https://github.com/iFixit/iFixitAndroid/issues/78"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Locked items should not be allowed for user operation",
+        "num_bugs": 1,
+        "links": {
+            "#1117": "https://github.com/agateau/pixelwheels/issues/108"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The scaling operation should not change the content of the page",
+        "num_bugs": 1,
+        "links": {
+            "#1572": "https://github.com/iSoron/uhabits/issues/575"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Emojis should be displayed correctly",
+        "num_bugs": 1,
+        "links": {
+            "#1537": "https://github.com/zulip/zulip-mobile/issues/2129"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "There should be a back button in the UI",
+        "num_bugs": 1,
+        "links": {
+            "#414": "https://github.com/thundernest/k-9/issues/5983"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "Display the complete image when in full-screen mode",
+        "num_bugs": 1,
+        "links": {
+            "#1885": "https://github.com/jonjomckay/fritter/issues/390"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When selecting multiple documents for sharing, all files should be shared correctly",
+        "num_bugs": 1,
+        "links": {
+            "#296": "https://github.com/docspell/android-client/issues/32"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The image cache of the full-screen browser should be updated along with the image itself",
+        "num_bugs": 1,
+        "links": {
+            "#1247": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/1858"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "After reaching 100% progress, the progess should not continue to increase",
+        "num_bugs": 1,
+        "links": {
+            "#1661": "https://github.com/xyzz/openmw-android/issues/51"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The canceled download items should not continue to be displayed in the download list",
+        "num_bugs": 1,
+        "links": {
+            "#2039": "https://github.com/Dar9586/NClientV2/issues/138"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When the user types text, the interface should scroll to keep the cursor position within the screen range",
+        "num_bugs": 1,
+        "links": {
+            "#1944": "https://github.com/mhss1/MyBrain/issues/29"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "UI components should not display behind the top status bar",
+        "num_bugs": 1,
+        "links": {
+            "#1195": "https://github.com/fossasia/open-event-organizer-android/issues/681"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The creation date and time should not be later than the current date and time.",
+        "num_bugs": 1,
+        "links": {
+            "#1610": "https://github.com/sismics/reader/issues/135"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "The list should allow users to scroll to view all items",
+        "num_bugs": 1,
+        "links": {
+            "#790": "https://github.com/SecUSo/privacy-friendly-food-tracker/issues/74"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Scrolling the page should not alter the original content of the page",
+        "num_bugs": 1,
+        "links": {
+            "#2655": "https://github.com/AndBible/and-bible/issues/2128"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The markup text (HTML) should not be directly displayed on the UI",
+        "num_bugs": 1,
+        "links": {
+            "#4538": "https://github.com/martykan/forecastie/issues/534"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Clicking on the bottom navigation bar should navigate to the corresponding interface",
+        "num_bugs": 1,
+        "links": {
+            "#3853": "https://github.com/z-huang/InnerTune/issues/95"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Should not display options without any text",
+        "num_bugs": 1,
+        "links": {
+            "#863": "https://github.com/tasks/tasks/issues/290"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Applications should not prevent the device from turning off while it is in a locked state",
+        "num_bugs": 1,
+        "links": {
+            "#345": "https://github.com/geometer/FBReaderJ/issues/122"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Data synchronization should not disrupt the modification date",
+        "num_bugs": 1,
+        "links": {
+            "#1604": "https://github.com/MirakelX/mirakel-android/issues/554"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "Changing the font display size should not affect the visibility of the components",
+        "num_bugs": 1,
+        "links": {
+            "#2013": "https://github.com/iNPUTmice/Conversations/issues/3146"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Continue playing when focus is lost function should work",
+        "num_bugs": 1,
+        "links": {
+            "#2821": "https://github.com/mpv-android/mpv-android/issues/114"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The length of the percentage bar should be consistent with the displayed percentage number",
+        "num_bugs": 1,
+        "links": {
+            "#366": "https://github.com/Exodus-Privacy/exodus-android-app/issues/174"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Should respect user settings",
+        "num_bugs": 1,
+        "links": {
+            "#5163": "https://github.com/scoute-dich/browser/issues/660"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The displayed numerical value of the progress quantity should not exceed the total number",
+        "num_bugs": 1,
+        "links": {
+            "#5222": "https://github.com/tachiyomiorg/tachiyomi/issues/7770"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Refreshing the page should not affect line spacing",
+        "num_bugs": 1,
+        "links": {
+            "#82": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/2087"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The confirm button should not disappear unexpectedly",
+        "num_bugs": 1,
+        "links": {
+            "#491": "https://github.com/deltachat/deltachat-android/issues/1604"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The date of messages in the message history should not change or be modified",
+        "num_bugs": 1,
+        "links": {
+            "#1023": "https://github.com/fossasia/susi_android/issues/697"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The progress bar should reset when starting to play a new project",
+        "num_bugs": 1,
+        "links": {
+            "#198": "https://github.com/jmshrv/finamp/issues/77"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The aspect ratio of the photos saved when taking pictures should be consistent with the aspect ratio previewed in the viewfinder at the time of shooting",
+        "num_bugs": 1,
+        "links": {
+            "#1100": "https://github.com/SimpleMobileTools/Simple-Camera/issues/20"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The quantity of unread messages should not be a negative number",
+        "num_bugs": 1,
+        "links": {
+            "#3873": "https://github.com/oxen-io/session-android/issues/848"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "High color contrast between the highlight and background",
+        "num_bugs": 1,
+        "links": {
+            "#4524": "https://github.com/tachiyomiorg/tachiyomi/issues/8419"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "When creating a future schedule, it should not be set to a past time point by default",
+        "num_bugs": 1,
+        "links": {
+            "#5161": "https://github.com/SimpleMobileTools/Simple-Calendar/issues/1205"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Press the play button should restart playing the video when it has finished playing",
+        "num_bugs": 1,
+        "links": {
+            "#1991": "https://github.com/kollerlukas/Camera-Roll-Android-App/issues/2"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Menus should not be blank",
+        "num_bugs": 1,
+        "links": {
+            "#61": "https://github.com/netmackan/ATimeTracker/issues/121"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Switching accounts should not log out the account that is already logged in",
+        "num_bugs": 1,
+        "links": {
+            "#625": "https://github.com/AllanWang/Frost-for-Facebook/issues/1757"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The push notification should disappear after the user has read the relevant content",
+        "num_bugs": 1,
+        "links": {
+            "#2196": "https://github.com/zulip/zulip-mobile/issues/5119"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "The scale bar on the map should be displayed correctly",
+        "num_bugs": 1,
+        "links": {
+            "#1379": "https://github.com/IITC-CE/ingress-intel-total-conversion/issues/293"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Menus should not have blank items",
+        "num_bugs": 1,
+        "links": {
+            "#2580": "https://github.com/kitsunyan/foxy-droid/issues/25"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The displayed elapsed time should update automatically",
+        "num_bugs": 1,
+        "links": {
+            "#4477": "https://github.com/deltachat/deltachat-android/issues/1571"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Synchronization should not reverts local edits",
+        "num_bugs": 1,
+        "links": {
+            "#671": "https://github.com/floccusaddon/floccus/issues/1088"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "A single operation should not trigger two identical dialog windows",
+        "num_bugs": 1,
+        "links": {
+            "#1030": "https://github.com/LinwoodCloud/Butterfly/issues/47"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "When the clipboard is empty, the paste button should be displayed as disabled",
+        "num_bugs": 1,
+        "links": {
+            "#434": "https://github.com/ManeraKai/simplytranslate_mobile/issues/161"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Escape sequences should be handled when displaying texts",
+        "num_bugs": 1,
+        "links": {
+            "#1608": "https://github.com/TwidereProject/Twidere-Android/issues/773"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The user's modification operation should be correctly remembered",
+        "num_bugs": 1,
+        "links": {
+            "#2080": "https://github.com/frostwire/frostwire/issues/105"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "After the user selects an item from the dropdown list while searching, the text in the search box should be changed to the item selected by the user",
+        "num_bugs": 1,
+        "links": {
+            "#20": "https://github.com/moezbhatti/qksms/issues/1155"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The recovered data after deletion should be exactly the same as before deletion",
+        "num_bugs": 1,
+        "links": {
+            "#1935": "https://github.com/ltGuillaume/DroidShows/issues/72"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "ETA should not be a negative number",
+        "num_bugs": 1,
+        "links": {
+            "#1311": "https://github.com/OnlyInAmerica/BART/issues/3"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The application should not display \"charging\" when the charging cable is not connected",
+        "num_bugs": 1,
+        "links": {
+            "#1463": "https://github.com/kylecorry31/Trail-Sense/issues/406"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The saved data and the user-input data should be consistent",
+        "num_bugs": 1,
+        "links": {
+            "#1234": "https://github.com/7LPdWcaW/GrowTracker-Android/issues/78"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "After clicking confirm, the confirmation button should no longer be displayed",
+        "num_bugs": 1,
+        "links": {
+            "#1462": "https://github.com/safe-global/safe-android/issues/1346"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "Components should not obstruct the system navigation bar",
+        "num_bugs": 1,
+        "links": {
+            "#3320": "https://github.com/status-im/status-mobile/issues/14399"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Search results should match the search string",
+        "num_bugs": 1,
+        "links": {
+            "#4118": "https://github.com/opacapp/opacclient/issues/209"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "In a certain interface, there is a series of parallel views. No matter which one is operated on, the result remains the same. Therefore, it is an error.",
+        "num_bugs": 1,
+        "links": {
+            "#48": "https://github.com/codinguser/gnucash-android/issues/617"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When a certain item is selected, it should be highlighted. After the selection is canceled, the highlight on it should also be canceled",
+        "num_bugs": 1,
+        "links": {
+            "#5197": "https://github.com/Keidan/HexViewer/issues/64"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Clicking an editable view should pop up the keyboard to allow users to input content",
+        "num_bugs": 1,
+        "links": {
+            "#12": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/issues/191"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "file names are case-sensitive",
+        "num_bugs": 1,
+        "links": {
+            "#2762": "https://github.com/gsantner/markor/issues/1481"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "restore deleted items should work",
+        "num_bugs": 1,
+        "links": {
+            "#980": "https://github.com/federicoiosue/Omni-Notes/issues/381"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "After clicking the push notification, the app should be opened",
+        "num_bugs": 1,
+        "links": {
+            "#2419": "https://github.com/nextcloud/talk-android/issues/2059"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Renaming should not affect the file content",
+        "num_bugs": 1,
+        "links": {
+            "#4190": "https://github.com/SimpleMobileTools/Simple-Notes/issues/69"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The default file name of the saved file should include the file extension",
+        "num_bugs": 1,
+        "links": {
+            "#1594": "https://github.com/KotatsuApp/Kotatsu/issues/164"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The auto correction function of the keyboard should not replace email addresses or domain names with common words",
+        "num_bugs": 1,
+        "links": {
+            "#985": "https://github.com/openboard-team/openboard/issues/589"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When the audio playback is interrupted, it should correctly remember the playback position to ensure that the pause and resume positions are consistent",
+        "num_bugs": 1,
+        "links": {
+            "#2722": "https://github.com/PaulWoitaschek/Voice/issues/264"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The saved photos should be consistent with the preview images in the viewfinder and should not be cropped",
+        "num_bugs": 1,
+        "links": {
+            "#284": "https://github.com/SimpleMobileTools/Simple-Camera/issues/92"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Users should not see password-protected data before entering the password",
+        "num_bugs": 1,
+        "links": {
+            "#286": "https://github.com/spacecowboy/NotePad/issues/109"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The selected items should not be automatically deselected with the update of UI components",
+        "num_bugs": 1,
+        "links": {
+            "#1248": "https://github.com/tachiyomiorg/tachiyomi/issues/8417"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "On shifting from drawble to text mode, keyboard should pop up automatically",
+        "num_bugs": 1,
+        "links": {
+            "#2006": "https://github.com/fossasia/badge-magic-android/issues/186"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Rename notes should work",
+        "num_bugs": 1,
+        "links": {
+            "#2048": "https://github.com/SimpleMobileTools/Simple-Notes/issues/199"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When opening the same UI page through different operation methods, the response to the same operation within the UI should be consistent",
+        "num_bugs": 1,
+        "links": {
+            "#1774": "https://github.com/SapuSeven/BetterUntis/issues/306"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "The full-screen video player should be displayed in the center",
+        "num_bugs": 1,
+        "links": {
+            "#1466": "https://github.com/jellyfin/jellyfin-android/issues/605"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Clicking share button should show an share dialog",
+        "num_bugs": 1,
+        "links": {
+            "#2903": "https://github.com/z-huang/InnerTune/issues/236"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "When displaying image or video, do not perform non-proportional scaling",
+        "num_bugs": 1,
+        "links": {
+            "#555": "https://github.com/Haptic-Apps/Slide/issues/901"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Button \"restore default setting\" should work as expected",
+        "num_bugs": 1,
+        "links": {
+            "#2152": "https://github.com/LibreShift/red-moon/issues/175"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "After setting ActionBar/ToolBar to auto hide, it should be able to correctly reappear",
+        "num_bugs": 1,
+        "links": {
+            "#812": "https://github.com/connectbot/connectbot/issues/285"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Clicking on a blank space in the search interface should not clear the user's input text",
+        "num_bugs": 1,
+        "links": {
+            "#33": "https://github.com/mozilla-mobile/focus-android/issues/3152"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When set to follow the system language, changing the system language should result in a corresponding change in the application language",
+        "num_bugs": 1,
+        "links": {
+            "#3277": "https://github.com/MuntashirAkon/AppManager/issues/770"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "A row of icons should not overflow out of the screen",
+        "num_bugs": 1,
+        "links": {
+            "#1037": "https://github.com/jonjomckay/fritter/issues/318"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The feedback should be consistent. The app successfully completes the operation, but the push notification displays an error.",
+        "num_bugs": 1,
+        "links": {
+            "#1546": "https://github.com/grote/BlitzMail/issues/13"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When entering a password, auto-capitalization should not be enabled by default",
+        "num_bugs": 1,
+        "links": {
+            "#5319": "https://github.com/lesspass/lesspass/issues/384"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Functionality should work: keep the device from turning off the screen",
+        "num_bugs": 1,
+        "links": {
+            "#38": "https://github.com/barbeau/gpstest/issues/120"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "When the visibility icon is tapped to show the password/PIN, the confirm field should also show the password/PIN.",
+        "num_bugs": 1,
+        "links": {
+            "#46": "https://github.com/andOTP/andOTP/issues/580"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app displays \"130%%\" instead of just one \"%\".",
+        "num_bugs": 1,
+        "links": {
+            "#105": "https://github.com/ankidroid/Anki-Android/issues/4801"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the user drags the floating panel to the location of the system navigation bar (where the back button is located), it becomes obstructed by the navigation bar and cannot be operated.",
+        "num_bugs": 1,
+        "links": {
+            "#150": "https://github.com/firemaples/EverTranslator/issues/174"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Users exit the process of creating a new account by pressing the back button (without completing the account creation), but then they see the incomplete account in the drawer.",
+        "num_bugs": 1,
+        "links": {
+            "#254": "https://github.com/thundernest/k-9/issues/6463"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When clicking on \"create a copy today\", it instead creates a copy from last year. The day and month are correct, but the year is incorrect.",
+        "num_bugs": 1,
+        "links": {
+            "#274": "https://github.com/apozas/contactdiary/issues/30"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After tapping the delete button, several buttons on the UI will disappear.",
+        "num_bugs": 1,
+        "links": {
+            "#313": "https://github.com/thundernest/k-9/issues/6346"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The user attempts to add one package, but upon opening the details, they encounter a bug where they see 250 packages instead of the expected one package.",
+        "num_bugs": 1,
+        "links": {
+            "#338": "https://github.com/patzly/grocy-android/issues/356"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When logging in with an account that has a username containing spaces, an error message stating \"folder does not exist\" is displayed, and subsequently, the ability to browse files is no longer available.",
+        "num_bugs": 1,
+        "links": {
+            "#346": "https://github.com/owncloud/android/issues/2347"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When performing a search in a specific deck, clicking on \"search all decks\" does not yield any results, whereas searching on the All Decks interface returns results.",
+        "num_bugs": 1,
+        "links": {
+            "#348": "https://github.com/ankidroid/Anki-Android/issues/9012"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: If the application is in portrait mode when launched and the user rotates the phone, the application does not enter landscape mode. However, if the application is in landscape mode when launched, the user can freely switch.",
+        "num_bugs": 1,
+        "links": {
+            "#395": "https://github.com/moezbhatti/qksms/issues/549"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When playing music, pressing the hardware button pauses the music, but pressing it again does not resume playback.",
+        "num_bugs": 1,
+        "links": {
+            "#521": "https://github.com/SimpleMobileTools/Simple-Music-Player/issues/414"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The page entered after clicking does not match what was clicked. In the calendar, clicking on August 4th leads to August 11th.",
+        "num_bugs": 1,
+        "links": {
+            "#566": "https://github.com/SimpleMobileTools/Simple-Calendar/issues/1439"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The compass works normally; open the compass settings; go back; the compass permanently stops working (unless the app is reinstalled).",
+        "num_bugs": 1,
+        "links": {
+            "#592": "https://github.com/kylecorry31/Trail-Sense/issues/456"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When selecting the first article in a feed, the last article is mistakenly chosen, resulting in the display of an incorrect article.",
+        "num_bugs": 1,
+        "links": {
+            "#653": "https://github.com/nextcloud/news-android/issues/392"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When updating the app and reopening it, all line breaks in the notes and documents disappear.",
+        "num_bugs": 1,
+        "links": {
+            "#658": "https://github.com/SecUSo/privacy-friendly-notes/issues/99"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: There is a large blank space between the keyboard and the bottom of the page.",
+        "num_bugs": 1,
+        "links": {
+            "#707": "https://github.com/florisboard/florisboard/issues/1760"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When clicking on the \"share\" button for a picture in an Android app, it redirects to another location and the picture that is being shared is different from the intended one.",
+        "num_bugs": 1,
+        "links": {
+            "#747": "https://github.com/kollerlukas/Camera-Roll-Android-App/issues/201"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When displaying certain conversations, some messages are shown as empty or only a picture is displayed. It can be confirmed that this is a display issue, as the bug report author has confirmed that using alternative methods allows for normal viewing of the messages. However, when using this app, only an empty message is visible.",
+        "num_bugs": 1,
+        "links": {
+            "#836": "https://github.com/moezbhatti/qksms/issues/1125"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When screen rotation is enabled, opening the camera and rotating the screen causes the image to flip.",
+        "num_bugs": 1,
+        "links": {
+            "#854": "https://github.com/zxing/zxing/issues/576"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The function of jumping to a specific date in the calendar will navigate to the wrong date.",
+        "num_bugs": 1,
+        "links": {
+            "#899": "https://github.com/Etar-Group/Etar-Calendar/issues/271"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: All QR code cannot be recognized.",
+        "num_bugs": 1,
+        "links": {
+            "#955": "https://github.com/beemdevelopment/Aegis/issues/726"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After modifying unrelated settings, the functionality of the zoom gesture becomes ineffective.",
+        "num_bugs": 1,
+        "links": {
+            "#1020": "https://github.com/TachibanaGeneralLaboratories/download-navi/issues/96"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Fields left blank when creating the address book are not allowed to be modified in any way.",
+        "num_bugs": 1,
+        "links": {
+            "#1028": "https://github.com/SimpleMobileTools/Simple-Contacts/issues/195"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: Each bookmark icon is displayed twice.",
+        "num_bugs": 1,
+        "links": {
+            "#1069": "https://github.com/AndBible/and-bible/issues/1363"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The names of each month on the calendar are all \"Llll\". Should be a valid month name.",
+        "num_bugs": 1,
+        "links": {
+            "#1116": "https://github.com/SimpleMobileTools/Simple-Calendar/issues/17"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The font size setting in the settings does not affect the size of certain text, even if the font in other places has been adjusted to a large size, the text in certain places remains the same (very small).",
+        "num_bugs": 1,
+        "links": {
+            "#1128": "https://github.com/rdoeffinger/Dictionary/issues/52"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: The aspect ratio of the app's display area is inconsistent with the actual screen's aspect ratio, resulting in blank spaces at the edges of the screen.",
+        "num_bugs": 1,
+        "links": {
+            "#1149": "https://github.com/austinried/subtracks/issues/28"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: After restarting, the content of the page is duplicated, with one item displaying two identical copies.",
+        "num_bugs": 1,
+        "links": {
+            "#1165": "https://github.com/HenriDellal/emerald/issues/50"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: When displaying a long user ID, the text after the ellipsis is truncated together with the message count.",
+        "num_bugs": 1,
+        "links": {
+            "#1225": "https://github.com/SafeSlingerProject/SafeSlinger-Android/issues/122"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There is a certain bug where the timer automatically extends by 24 hours when it reaches midnight, resulting in an end time that does not match the preset time.",
+        "num_bugs": 1,
+        "links": {
+            "#1257": "https://github.com/Vel-San/Getoffyourphone/issues/22"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When long-pressing a directory and selecting \"Play\" or \"Play Next\" options, the app consistently displays \"0 tracks playing\" even when there are files within the folder that should be played.",
+        "num_bugs": 1,
+        "links": {
+            "#1373": "https://github.com/vanilla-music/vanilla/issues/816"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After revoking OAuth access, the app does not prompt the user to reauthenticate. As a result, the user experiences a frozen UI.",
+        "num_bugs": 1,
+        "links": {
+            "#1418": "https://github.com/eduvpn/android/issues/141"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After the change to daylight saving time, an event appeared twice, and clicking on one of them would result in a \"does not exist\" error.",
+        "num_bugs": 1,
+        "links": {
+            "#1451": "https://github.com/andstatus/todoagenda/issues/83"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Unread emails in the trash folder are being deleted after a period of 30 days, but the count of unread emails displayed on the folder's badge is not being updated accordingly.",
+        "num_bugs": 1,
+        "links": {
+            "#1458": "https://github.com/tutao/tutanota/issues/4376"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The menu button is misaligned, the displayed text does not match the actual functionality (caused by localization mistakes).",
+        "num_bugs": 1,
+        "links": {
+            "#1471": "https://github.com/maks/MGit/issues/77"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The month axis does not display September, resulting in a sequence of months displayed as \"... Aug - Oct - Nov ...\".",
+        "num_bugs": 1,
+        "links": {
+            "#1523": "https://github.com/iSoron/uhabits/issues/199"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The items in the list are being displayed twice.",
+        "num_bugs": 1,
+        "links": {
+            "#1534": "https://github.com/aaronjwood/PortAuthority/issues/82"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When adding a new checkbox item, if the user switches to the number keyboard and types \"1\", the keyboard immediately switches to the letter keyboard.",
+        "num_bugs": 1,
+        "links": {
+            "#1541": "https://github.com/dmfs/opentasks/issues/84"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Clicking \"Skipping\" only once skipped multiple items.",
+        "num_bugs": 1,
+        "links": {
+            "#1542": "https://github.com/daneren2005/Subsonic/issues/687"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: When the display size is large, the \"Create Alias\" screen does not have a \"create\" button located at the bottom.",
+        "num_bugs": 1,
+        "links": {
+            "#1568": "https://github.com/simple-login/Simple-Login-Android/issues/80"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: An invalid widget was created, and the icon is the default icon, even though the preview was correct when it was created.",
+        "num_bugs": 1,
+        "links": {
+            "#1600": "https://github.com/openhab/openhab-android/issues/2767"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the user attempts to select a tag in task, a different tag will be set.",
+        "num_bugs": 1,
+        "links": {
+            "#1602": "https://github.com/MirakelX/mirakel-android/issues/419"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The user adds project A, then deletes it, and adds A again, only to find that A will never appear again.",
+        "num_bugs": 1,
+        "links": {
+            "#1614": "https://github.com/davidhealey/waistline/issues/323"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After Mark plays/unplays, the interface does not respond. It is necessary to re-enter the page in order to see the changes.",
+        "num_bugs": 1,
+        "links": {
+            "#1624": "https://github.com/AntennaPod/AntennaPod/issues/4776"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The background of the spoiler for webms that have been spoilered should disappear once the webm has been unspoiled.",
+        "num_bugs": 1,
+        "links": {
+            "#1643": "https://github.com/chandevel/Clover/issues/681"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In certain situations, received messages may disappear. The app claims to have several unread messages, but upon opening, it is discovered that there are none.",
+        "num_bugs": 1,
+        "links": {
+            "#1703": "https://github.com/zulip/zulip-mobile/issues/3441"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When entering the root directory, no projects are displayed, and the application does not prompt the user for permissions.",
+        "num_bugs": 1,
+        "links": {
+            "#1705": "https://github.com/SimpleMobileTools/Simple-File-Manager/issues/61"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The bottom tab bar disappears after using other functions and returning, meaning it cannot be pulled up again to display.",
+        "num_bugs": 1,
+        "links": {
+            "#1717": "https://github.com/jonjomckay/fritter/issues/489"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In landscape mode, the collapsing toolbar view occupies the entire space, preventing the user from collapsing it due to the inability to scroll the image, resulting in the user becoming stuck.",
+        "num_bugs": 1,
+        "links": {
+            "#1771": "https://github.com/px-amaac/KZFR/issues/48"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The alarm list fails to update when recurring alarms or notifications are dismissed.",
+        "num_bugs": 1,
+        "links": {
+            "#1838": "https://github.com/forrestguice/SuntimesWidget/issues/640"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Dragging the map always immediately triggers a map refresh, thus preventing movement on the map.",
+        "num_bugs": 1,
+        "links": {
+            "#1904": "https://github.com/duckduckgo/Android/issues/1132"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When selecting to send an email (to report a bug or request help) from within the app, the email editor opens, but the recipient field is empty.",
+        "num_bugs": 1,
+        "links": {
+            "#1910": "https://github.com/erickok/ratebeer/issues/1"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The user's actions should be correctly saved. When the user touches the checkbox, the item disappears, but it reappears after closing and reopening the app.",
+        "num_bugs": 1,
+        "links": {
+            "#1912": "https://github.com/mpcjanssen/simpletask-android/issues/521"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When selecting a file (any file within a folder) for browsing, the first file in the folder is opened instead.",
+        "num_bugs": 1,
+        "links": {
+            "#1928": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/2509"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After inputting text that exceeds a certain length, all of the text disappears. Pressing the delete key multiple times will cause the text to reappear.",
+        "num_bugs": 1,
+        "links": {
+            "#1929": "https://github.com/tuskyapp/Tusky/issues/828"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There is a certain editable field consisting of a series of checkboxes. When deselecting some of the already selected options and pressing the checkmark to confirm, it is observed that there is no change and the options cannot be removed.",
+        "num_bugs": 1,
+        "links": {
+            "#1951": "https://github.com/organicmaps/organicmaps/issues/1283"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Despite clicking on \"Disable all,\" a certain function remains in the enabled state.",
+        "num_bugs": 1,
+        "links": {
+            "#1974": "https://github.com/asksven/BetterWifiOnOff/issues/15"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After setting a password during the initial launch of the app, it becomes impossible to access the app using the same password after a certain period of time. The app becomes locked and unusable.",
+        "num_bugs": 1,
+        "links": {
+            "#2062": "https://github.com/zoff99/ToxAndroidRefImpl/issues/207"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When multiple selected tracks are deleted, the entire playlist is cleared.",
+        "num_bugs": 1,
+        "links": {
+            "#2078": "https://github.com/AdrienPoupa/VinylMusicPlayer/issues/580"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The downloaded content has been deleted unexpectedly.",
+        "num_bugs": 1,
+        "links": {
+            "#2088": "https://github.com/tachiyomiorg/tachiyomi/issues/8534"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The select all button will redundantly select items that have already been checked.",
+        "num_bugs": 1,
+        "links": {
+            "#2124": "https://github.com/msoultanidis/quillnote/issues/117"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Whenever the activity is refreshed (by sliding down, possibly also after uploading), the Photoviewer will always start with the last image in the album, regardless of which picture was tapped on.",
+        "num_bugs": 1,
+        "links": {
+            "#2128": "https://github.com/Piwigo/Piwigo-Android/issues/157"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When clicking on someone else's account information and then using the sidebar to return to one's own profile, it is observed that the displayed information still belongs to the other person.",
+        "num_bugs": 1,
+        "links": {
+            "#2144": "https://github.com/qii/weiciyuan/issues/157"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the user selects a destination, the \"start from\" station field is automatically populated with the station that was chosen as the destination.",
+        "num_bugs": 1,
+        "links": {
+            "#2212": "https://github.com/grote/Transportr/issues/554"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After I cancelled the sending of a delayed message, a pinned conversation disappeared from the list.",
+        "num_bugs": 1,
+        "links": {
+            "#2243": "https://github.com/moezbhatti/qksms/issues/1633"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The behavior of the play button on the notification bar is unexpected. Clicking it does not play the next one.",
+        "num_bugs": 1,
+        "links": {
+            "#2250": "https://github.com/AntennaPod/AntennaPod/issues/5723"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The application is unable to play any local files that have a space in the filename.",
+        "num_bugs": 1,
+        "links": {
+            "#2290": "https://github.com/xbmc/Kore/issues/717"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the font size is increased and the remaining time on the clock is greater than 100 minutes, the timer clock within the app becomes frozen and does not move.",
+        "num_bugs": 1,
+        "links": {
+            "#2296": "https://github.com/adrcotfas/Goodtime/issues/257"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: In the notification area, it is observed that the displayed speed text is incorrect, as it shows \"Bytes/s/s\". It is evident that the inclusion of \"/s\" is redundant.",
+        "num_bugs": 1,
+        "links": {
+            "#2303": "https://github.com/shadowsocks/shadowsocks-android/issues/1507"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The action of toggling password visibility should not affect the process of creating a file (whether the file is locked with password).",
+        "num_bugs": 1,
+        "links": {
+            "#2317": "https://github.com/Swati4star/Images-to-PDF/issues/534"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the Favorites filter is tapped, the tag filters are displayed in the results list.",
+        "num_bugs": 1,
+        "links": {
+            "#2329": "https://github.com/TBog/TBLauncher/issues/99"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Certain UI elements not being displayed in the video player.",
+        "num_bugs": 1,
+        "links": {
+            "#2332": "https://github.com/xbmc/Kore/issues/602"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: when multiple folders are hidden, if the cancel button is clicked in the confirmation dialog, it is discovered that one folder has been hidden.",
+        "num_bugs": 1,
+        "links": {
+            "#2354": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/1552"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Images received in chat disappear, with an error message stating \"Failed file transfer,\" and upon checking the storage, it is observed that the original photos have turned into blank spaces.",
+        "num_bugs": 1,
+        "links": {
+            "#2356": "https://github.com/iNPUTmice/Conversations/issues/3597"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The semantic of the clicked button does not align with the behavior of the app.",
+        "num_bugs": 1,
+        "links": {
+            "#2362": "https://github.com/fossasia/susi_android/issues/2051"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The deletion operation cannot be synchronized with the remote server.",
+        "num_bugs": 1,
+        "links": {
+            "#2389": "https://github.com/MirakelX/mirakel-android/issues/323"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the user exits the note editing without making any modifications, the display of \"saving changes\" and the modification of the note's update status should not occur.",
+        "num_bugs": 1,
+        "links": {
+            "#2423": "https://github.com/aykit/MyOwnNotes/issues/21"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When clicking on a third-party agreement on the about page, and then clicking on one of the links, upon returning, it is observed that all the links on the third-party agreement page have been duplicated and none of the links are highlighted.",
+        "num_bugs": 1,
+        "links": {
+            "#2427": "https://github.com/SimpleMobileTools/Simple-Notes/issues/62"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The behavior of the app should respect the settings: playback is paused after Bluetooth disconnection.",
+        "num_bugs": 1,
+        "links": {
+            "#2477": "https://github.com/AntennaPod/AntennaPod/issues/5954"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When users performed a swipe gesture today (on a Thursday) to navigate to the previous day, the schedule for Monday unexpectedly appears.",
+        "num_bugs": 1,
+        "links": {
+            "#2480": "https://github.com/SapuSeven/BetterUntis/issues/39"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The spoiler function should work properly",
+        "num_bugs": 1,
+        "links": {
+            "#2493": "https://github.com/Haptic-Apps/Slide/issues/914"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the input message is too long, the \"send\" button gets pushed off the screen and becomes unreachable.",
+        "num_bugs": 1,
+        "links": {
+            "#2502": "https://github.com/syphon-org/syphon/issues/196"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Taking photo should work properly",
+        "num_bugs": 1,
+        "links": {
+            "#2510": "https://github.com/SimpleMobileTools/Simple-Camera/issues/169"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Audio playback should be paused when receiving a phone call",
+        "num_bugs": 1,
+        "links": {
+            "#2526": "https://github.com/mpv-android/mpv-android/issues/251"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When sending a message, the recently sent message is not visible. However, after restarting the application, the recently sent message becomes visible.",
+        "num_bugs": 1,
+        "links": {
+            "#2549": "https://github.com/zulip/zulip-mobile/issues/2413"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When exporting, if the option to overwrite an existing file is selected, it is observed that some characters of the file remain in their original position and are not deleted.",
+        "num_bugs": 1,
+        "links": {
+            "#2583": "https://github.com/AntennaPod/AntennaPod/issues/5819"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There are two methods to indicate the current tab in the tab bar of Android apps. One is a highlighted underline below the text, and the other is a color change of the text itself. This bug occurs when, under certain circumstances, these two methods conflict with each other. This means that one tab has an underline while another tab has a color change, causing confusion for the user to determine the current tab.",
+        "num_bugs": 1,
+        "links": {
+            "#2610": "https://github.com/schwabe/ics-openvpn/issues/747"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The application does not respect the system volume settings, as the app's sound remains unchanged regardless of how the phone volume is adjusted.",
+        "num_bugs": 1,
+        "links": {
+            "#2614": "https://github.com/jitsi/jitsi-meet/issues/6399"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: If the user leaves the name fields blank, the app will prompt them with the message: \"Your email address is invalid\" below the name fields.",
+        "num_bugs": 1,
+        "links": {
+            "#2616": "https://github.com/fossasia/open-event-attendee-android/issues/2261"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After locking the screen within the app, it becomes impossible to unlock it",
+        "num_bugs": 1,
+        "links": {
+            "#2623": "https://github.com/deltachat/deltachat-android/issues/591"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The user comment is displayed as \"2 hours ago,\" but the user just posted it.",
+        "num_bugs": 1,
+        "links": {
+            "#2627": "https://github.com/LemmurOrg/lemmur/issues/150"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug:  Several notifications have identical contents.",
+        "num_bugs": 1,
+        "links": {
+            "#2674": "https://github.com/MCMrARM/revolution-irc/issues/89"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The user's device is in German, but after installing the new version of the app, it changed to Portuguese.",
+        "num_bugs": 1,
+        "links": {
+            "#2690": "https://github.com/CookieJarApps/SmartCookieWeb/issues/79"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: App displays a message \"Minimum output is $amount. You don't have enough funds to pay...\". The dollar-amount should be replaced by a real value.",
+        "num_bugs": 1,
+        "links": {
+            "#2702": "https://github.com/peercoin/peercoin_flutter/issues/157"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The \"What's new\" dialog box displays some markups of markdown.",
+        "num_bugs": 1,
+        "links": {
+            "#2760": "https://github.com/tasks/tasks/issues/1582"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The statement describes a buggy behavior in Android apps where the action of \"delete all accounts\" only removes recent accounts and does not delete all of them.",
+        "num_bugs": 1,
+        "links": {
+            "#2782": "https://github.com/encointer/encointer-wallet-flutter/issues/584"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: An error occurred while saving media files, resulting in the overwriting of an existing file instead of creating a new one.",
+        "num_bugs": 1,
+        "links": {
+            "#2792": "https://github.com/moezbhatti/qksms/issues/1518"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In landscape mode, two buttons (display normally in portrait mode) are not displayed.",
+        "num_bugs": 1,
+        "links": {
+            "#2795": "https://github.com/therealbluepandabear/PixaPencil/issues/221"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Scrolling down the list should work properly.",
+        "num_bugs": 1,
+        "links": {
+            "#2811": "https://github.com/tuskyapp/Tusky/issues/803"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After submitting edited fields, all data is lost.",
+        "num_bugs": 1,
+        "links": {
+            "#2832": "https://github.com/commons-app/apps-android-commons/issues/4963"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When focusing on a regular text box, the keyboard layout that pops up is the numeric keyboard instead of the alphabetic keyboard, which prevents normal letter input.",
+        "num_bugs": 1,
+        "links": {
+            "#2844": "https://github.com/google/mozc/issues/369"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There is an error when exporting to CSV, where the exported file only contains the header but no data.",
+        "num_bugs": 1,
+        "links": {
+            "#2857": "https://github.com/oliexdev/openScale/issues/591"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The messages sent by the user are getting lost.",
+        "num_bugs": 1,
+        "links": {
+            "#2867": "https://github.com/zulip/zulip-mobile/issues/2296"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After the message has been successfully submitted, the original text remains in the editing field.",
+        "num_bugs": 1,
+        "links": {
+            "#2879": "https://github.com/status-im/status-mobile/issues/13610"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When attempting to open an image in the reply/quote dialog box, it opens the image that I saw before the dialog box.",
+        "num_bugs": 1,
+        "links": {
+            "#2898": "https://github.com/K1rakishou/Kuroba-Experimental/issues/490"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: A message has appeared twice, exhibiting repetitive behavior.",
+        "num_bugs": 1,
+        "links": {
+            "#2920": "https://github.com/moezbhatti/qksms/issues/1131"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When reading local epub files, switching between light and dark themes will cause subsequent chapters to fail to load.",
+        "num_bugs": 1,
+        "links": {
+            "#2935": "https://github.com/gedoor/legado/issues/2206"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After updating the app, the user noticed that all the data had disappeared.",
+        "num_bugs": 1,
+        "links": {
+            "#2967": "https://github.com/hamaluik/timecop/issues/41"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When clicking on the share button on the debug info page, it shares an empty message.",
+        "num_bugs": 1,
+        "links": {
+            "#2978": "https://github.com/mpcjanssen/simpletask-android/issues/670"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The database was suddenly cleared for no reason.",
+        "num_bugs": 1,
+        "links": {
+            "#2979": "https://github.com/Kunzisoft/KeePassDX/issues/1201"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: The input fields are squeezed and makes it impossible to see the text being entered.",
+        "num_bugs": 1,
+        "links": {
+            "#2984": "https://github.com/maltaisn/another-notes-app/issues/53"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When opening the search box, exiting and re-entering, it is observed that the keyboard briefly flashes after tapping the search box, and then the search function does not work properly.",
+        "num_bugs": 1,
+        "links": {
+            "#2993": "https://github.com/libre-tube/LibreTube/issues/1740"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Pressing the enter key in the text editor causes the text on the current line to disappear.",
+        "num_bugs": 1,
+        "links": {
+            "#3005": "https://github.com/nextcloud/android/issues/10618"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: I encountered an issue where, upon submitting a product through the purchase screen with the name \"lenny&larry cookie\", the resulting product received was named \"lenny\".",
+        "num_bugs": 1,
+        "links": {
+            "#3008": "https://github.com/patzly/grocy-android/issues/333"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The application generates multiple entries on the \"recent applications\" screen.",
+        "num_bugs": 1,
+        "links": {
+            "#3053": "https://github.com/VincentEngel/VES-Image-Compare/issues/5"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The highlighted item in the navigation bar is incorrect. It is not the page that the user is currently in.",
+        "num_bugs": 1,
+        "links": {
+            "#3059": "https://github.com/fossasia/open-event-organizer-android/issues/1383"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "Umlaut in units should be displayed correctly.",
+        "num_bugs": 1,
+        "links": {
+            "#3065": "https://github.com/davidhealey/waistline/issues/107"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When saving an image, the file name is truncated and the file extension is partially lost at least.",
+        "num_bugs": 1,
+        "links": {
+            "#3075": "https://github.com/jonjomckay/fritter/issues/255"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Even when using filtering in the list interface, all items are still gradually displayed when scrolling down the list.",
+        "num_bugs": 1,
+        "links": {
+            "#3077": "https://github.com/AntennaPod/AntennaPod/issues/4414"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "For instance, in the given scenario, when @aaa sends me a message saying \"hi!\", followed by @BBB sending me a message saying \"Hello there!\", the Tusky mobile notification displays @aaa's profile picture along with the text \"Hello there!\".",
+        "num_bugs": 1,
+        "links": {
+            "#3094": "https://github.com/tuskyapp/Tusky/issues/48"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The color picker displays a completely gray box. Should be able to use.",
+        "num_bugs": 1,
+        "links": {
+            "#3119": "https://github.com/SufficientlySecure/document-viewer/issues/222"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The automatic synchronization feature is not functioning properly.",
+        "num_bugs": 1,
+        "links": {
+            "#3161": "https://github.com/wallabag/android-app/issues/309"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After an update, it caused the phone to enter a boot loop.",
+        "num_bugs": 1,
+        "links": {
+            "#3187": "https://github.com/Telegram-FOSS-Team/Telegram-FOSS/issues/207"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When a widget has a two-line title, it is no longer possible to click on the title to navigate.",
+        "num_bugs": 1,
+        "links": {
+            "#3223": "https://github.com/spacecowboy/NotePad/issues/149"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There is a bug where the cursor is automatically placed in fields on the 'your details' page. This is problematic because the cursor is already blinking upon arrival at this page, obscuring the instructional text that informs me what to input in the telephone field.",
+        "num_bugs": 1,
+        "links": {
+            "#3304": "https://github.com/mysociety/fixmystreet-mobile/issues/9"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The notification sound setting is not functioning properly, as it still produces sound even when set to silent.",
+        "num_bugs": 1,
+        "links": {
+            "#3312": "https://github.com/deltachat/deltachat-android/issues/1857"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When a user touches a torrent from the list, the torrent is highlighted in a medium shade of green and its information is displayed. If the user goes back from the torrent information screen, the highlighted torrent remains highlighted in the same shade of green. This behavior also occurs when the user quickly touches multiple torrents. The torrents are not grouped or truly selected, but they remain permanently highlighted.",
+        "num_bugs": 1,
+        "links": {
+            "#3322": "https://github.com/erickok/transdroid/issues/33"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The notification sound setting is not functioning properly, as it still produces sound even when set to silent.",
+        "num_bugs": 1,
+        "links": {
+            "#3324": "https://github.com/nextcloud/talk-android/issues/2169"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When attempting to change or add a password in the Settings menu, specifically under the Security section and then Access by password, if an error message stating \"passwords don't match\" is displayed, the toggle for Access by password remains enabled.",
+        "num_bugs": 1,
+        "links": {
+            "#3349": "https://github.com/UnevenSoftware/LeafPic/issues/585"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Should be able to modify the month of a date.",
+        "num_bugs": 1,
+        "links": {
+            "#3350": "https://github.com/mtotschnig/MyExpenses/issues/492"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The title of the search box in German is excessively lengthy, which hinders users from entering a query.",
+        "num_bugs": 1,
+        "links": {
+            "#3352": "https://github.com/sky-map-team/stardroid/issues/47"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The due date is written as \"duedate\" instead of \"due date\".",
+        "num_bugs": 1,
+        "links": {
+            "#3354": "https://github.com/stefan-niedermann/nextcloud-deck/issues/412"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The playback cannot be resumed after a brief loss of audio focus.",
+        "num_bugs": 1,
+        "links": {
+            "#3370": "https://github.com/trynoice/android-app/issues/219"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Even after being granted root directory permissions, the application is still unable to access the root directory.",
+        "num_bugs": 1,
+        "links": {
+            "#3371": "https://github.com/SimpleMobileTools/Simple-File-Manager/issues/85"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The starred messages that have been marked do not appear in the starred list.",
+        "num_bugs": 1,
+        "links": {
+            "#3372": "https://github.com/zulip/zulip-mobile/issues/2677"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When editing an image and then clicking on confirm, it is observed that the original image remains unchanged and all recent modifications are discarded.",
+        "num_bugs": 1,
+        "links": {
+            "#3376": "https://github.com/deltachat/deltachat-android/issues/2032"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: Some page content is cropped out of the screen and becomes invisible on smaller display devices.",
+        "num_bugs": 1,
+        "links": {
+            "#3420": "https://github.com/flackbash/AudioAnchor/issues/139"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Users can activate the app by clicking a button in the notification bar. However, they noticed that there is a delay of a few seconds before the button switches its state (highlighted) after being pressed. It appears as if there is no response immediately after pressing the button, but in reality, the button should provide feedback immediately upon being pressed.",
+        "num_bugs": 1,
+        "links": {
+            "#3424": "https://github.com/mueller-ma/Coffee/issues/164"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After refreshing, all components on a certain page become unresponsive.",
+        "num_bugs": 1,
+        "links": {
+            "#3435": "https://github.com/fossasia/open-event-organizer-android/issues/1686"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The menu occasionally requires two clicks to display all of its items. Upon initially clicking the options button, only three options are visible. However, upon a second click, all six options become visible.",
+        "num_bugs": 1,
+        "links": {
+            "#3452": "https://github.com/spacecowboy/NotePad/issues/87"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The downward scrolling interaction logic should meet expectation. Performing a downward swipe on a dropdown menu should not trigger a page refresh (swipe to refresh).",
+        "num_bugs": 1,
+        "links": {
+            "#3601": "https://github.com/c3nav/c3nav-android/issues/1"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: A folder named \"zip\" displays the icon of a compressed file, but in reality, it is not a compressed file.",
+        "num_bugs": 1,
+        "links": {
+            "#3615": "https://github.com/TeamAmaze/AmazeFileManager/issues/2918"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: By quickly pressing the back key twice, the gesture lock can be bypassed.",
+        "num_bugs": 1,
+        "links": {
+            "#3627": "https://github.com/haiwen/seadroid/issues/219"
+        }
+    },
+    {
+        "category": "UI Layout",
+        "principle": "This app behavior is considered a bug: When running on larger screen devices, this app will have black borders on both sides.",
+        "num_bugs": 1,
+        "links": {
+            "#3640": "https://github.com/simenheg/simple-chess-clock/issues/22"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the cursor is still on the editing field and the OK button is clicked, the edited content will not be saved.",
+        "num_bugs": 1,
+        "links": {
+            "#3645": "https://github.com/adrcotfas/Goodtime/issues/236"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The application icons on the desktop disappear and turn into a gray block.",
+        "num_bugs": 1,
+        "links": {
+            "#3676": "https://github.com/z-huang/InnerTune/issues/345"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The time is displayed as \"9:0\", which should be nine o'clock.",
+        "num_bugs": 1,
+        "links": {
+            "#3691": "https://github.com/blanyal/Remindly/issues/33"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: data duplicated.",
+        "num_bugs": 1,
+        "links": {
+            "#3737": "https://github.com/AEFeinstein/mtg-familiar/issues/203"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The description is unclear: After uploading multiple files, some of the files were repeatedly uploaded multiple times.",
+        "num_bugs": 1,
+        "links": {
+            "#3754": "https://github.com/Infomaniak/android-kDrive/issues/756"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After renaming object A to the name of object B, it was discovered that A overwrote B.",
+        "num_bugs": 1,
+        "links": {
+            "#3759": "https://github.com/y20k/transistor/issues/66"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When decompressing a compressed file, new files will overwrite existing files with the same name.",
+        "num_bugs": 1,
+        "links": {
+            "#3815": "https://github.com/SimpleMobileTools/Simple-File-Manager/issues/164"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app displays time in a 12-hour format without indicating am/pm.",
+        "num_bugs": 1,
+        "links": {
+            "#3849": "https://github.com/OpenTracksApp/OpenTracks/issues/1140"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: Multiple occurrences of a single event are appearing on the calendar.",
+        "num_bugs": 1,
+        "links": {
+            "#3895": "https://github.com/mhss1/MyBrain/issues/96"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app displays \"NaN%\" instead of a normal percentage number.",
+        "num_bugs": 1,
+        "links": {
+            "#3908": "https://github.com/premnirmal/StockTicker/issues/284"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The absence of an OK button in the filter dialog box prevents the use of the related functionality.",
+        "num_bugs": 1,
+        "links": {
+            "#3971": "https://github.com/ukanth/afwall/issues/652"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "The data should be saved correctly.",
+        "num_bugs": 1,
+        "links": {
+            "#3990": "https://github.com/stefan-niedermann/nextcloud-deck/issues/505"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The notification reports the charging status and displays negative current values.",
+        "num_bugs": 1,
+        "links": {
+            "#4047": "https://github.com/TylerWilliamson/BatteryNotification/issues/7"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The message \"Folder no longer exists\" is displayed when browsing within the application while logged in with an account that has an \"@\" symbol in the username.",
+        "num_bugs": 1,
+        "links": {
+            "#4070": "https://github.com/owncloud/android/issues/2365"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The leading zero is missing. It displays as -.4\u63b3C instead of -0.4\u63b3C.",
+        "num_bugs": 1,
+        "links": {
+            "#4076": "https://github.com/martykan/forecastie/issues/166"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "Adding pictures should work correctly",
+        "num_bugs": 1,
+        "links": {
+            "#4137": "https://github.com/CatimaLoyalty/Android/issues/288"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: On small screens, the text on buttons disappears.",
+        "num_bugs": 1,
+        "links": {
+            "#4156": "https://github.com/nextcloud/talk-android/issues/2426"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The saved images have incorrect orientation and are flipped upside down.",
+        "num_bugs": 1,
+        "links": {
+            "#4270": "https://github.com/SimpleMobileTools/Simple-Camera/issues/192"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: On certain devices, the menu button on the main interface does not appear and cannot be used to open the menu.",
+        "num_bugs": 1,
+        "links": {
+            "#4311": "https://github.com/TwidereProject/Twidere-Android/issues/1223"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This issue can be reproduced, and it is undoubtedly a common sense error, but it is difficult to describe accurately.",
+        "num_bugs": 1,
+        "links": {
+            "#4344": "https://github.com/Iamlooker/Droid-ify/issues/79"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After clicking \"show older\" in the version list and then clicking \"show less\" to restore, it is observed that the list items have duplicated themselves.",
+        "num_bugs": 1,
+        "links": {
+            "#4362": "https://github.com/Iamlooker/Droid-ify/issues/15"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app displays negative durations and shows \"Mar, 12 1\" (March 12th, year 1).",
+        "num_bugs": 1,
+        "links": {
+            "#4408": "https://github.com/osmandapp/OsmAnd/issues/13945"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: Just now, there was a display of the date that is one month ahead in the future.",
+        "num_bugs": 1,
+        "links": {
+            "#4416": "https://github.com/SecUSo/privacy-friendly-sudoku/issues/72"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When I mark an article as a favorite, then swipe to the next one, and finally go back to the previous one, it is not displayed as a favorite.",
+        "num_bugs": 1,
+        "links": {
+            "#4495": "https://github.com/FredJul/Flym/issues/63"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app displays \"NaN%\" instead of a normal percentage number.",
+        "num_bugs": 1,
+        "links": {
+            "#4512": "https://github.com/jonjomckay/fritter/issues/457"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: There is a string error where a button that should have a semantic meaning of \"cancel\" is displaying the text \"@Android:string/Cancel\".",
+        "num_bugs": 1,
+        "links": {
+            "#4520": "https://github.com/OxygenCobalt/Auxio/issues/222"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When users download large files, it shows that the download is complete, but upon opening the details, it displays that the download progress is not 100%, and in reality, it has not been completed.",
+        "num_bugs": 1,
+        "links": {
+            "#4626": "https://github.com/TachibanaGeneralLaboratories/download-navi/issues/40"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In the upload interface, clicking \"clear all finished\" will also clear all unfinished tasks.",
+        "num_bugs": 1,
+        "links": {
+            "#4631": "https://github.com/owncloud/android/issues/2596"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When editing something and then saving, it is noticed that one of the values has decreased by a factor of 1000.",
+        "num_bugs": 1,
+        "links": {
+            "#4634": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4145"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The setting option \"resume after headphone reconnection\" does not work properly as the app fails to automatically resume after headphones are reconnected.",
+        "num_bugs": 1,
+        "links": {
+            "#4636": "https://github.com/AntennaPod/AntennaPod/issues/5559"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When returning from one interface to another, the keyboard briefly flashes.",
+        "num_bugs": 1,
+        "links": {
+            "#4689": "https://github.com/tachiyomiorg/tachiyomi/issues/6480"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The camera is flipped upside-down.",
+        "num_bugs": 1,
+        "links": {
+            "#4702": "https://github.com/bitcoin-wallet/bitcoin-wallet/issues/269"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The progress bar remains at the beginning and does not move during video playback.",
+        "num_bugs": 1,
+        "links": {
+            "#4709": "https://github.com/K1rakishou/Kuroba-Experimental/issues/717"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The system settings display time in a 24-hour format, while the app displays time in a 12-hour format.",
+        "num_bugs": 1,
+        "links": {
+            "#4730": "https://github.com/dmfs/opentasks/issues/396"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After logging in, the username is only displayed correctly after rotating the screen.",
+        "num_bugs": 1,
+        "links": {
+            "#4756": "https://github.com/Teester/Whats-Nearby/issues/41"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After exporting a backup and restoring it, the deleted items reappear.",
+        "num_bugs": 1,
+        "links": {
+            "#4758": "https://github.com/BijoySingh/Scarlet-Notes/issues/21"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: Upon entering a certain interface, a specific sound is played. When exiting the app and modifying the system language, upon returning to the app, the sound is played again.",
+        "num_bugs": 1,
+        "links": {
+            "#4776": "https://github.com/samotari/crypto-terminal/issues/335"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: After scrolling the screen and releasing it, it immediately continues to scroll in the opposite direction for a short period of time.",
+        "num_bugs": 1,
+        "links": {
+            "#4798": "https://github.com/mattermost/mattermost-mobile/issues/2213"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The search results section does not highlight.",
+        "num_bugs": 1,
+        "links": {
+            "#4803": "https://github.com/stefan-niedermann/nextcloud-notes/issues/804"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The desktop widget never updates.",
+        "num_bugs": 1,
+        "links": {
+            "#4949": "https://github.com/mhss1/MyBrain/issues/8"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The application inadvertently caused the loss of user data stored on the mobile device's disk.",
+        "num_bugs": 1,
+        "links": {
+            "#4957": "https://github.com/scubajeff/lespas/issues/56"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: The app incorrectly displays the time in a 24-hour format as \"HH:23\".",
+        "num_bugs": 1,
+        "links": {
+            "#5015": "https://github.com/fennifith/Status/issues/14"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: One action opened two identical dialogs (one overlaps another completely).",
+        "num_bugs": 1,
+        "links": {
+            "#5034": "https://github.com/SkyTubeTeam/SkyTube/issues/574"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The first 20 movies are loaded twice, and they appear on the initial screen every time the application is opened.",
+        "num_bugs": 1,
+        "links": {
+            "#5074": "https://github.com/esoxjem/MovieGuide/issues/96"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the user clicks on text with an anchor action type, the expected behavior is for the app to open the link that is provided in the response.",
+        "num_bugs": 1,
+        "links": {
+            "#5079": "https://github.com/fossasia/susi_android/issues/744"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When horizontally sliding the tab bar, once the hand is released, the sliding position reverts back to its original state.",
+        "num_bugs": 1,
+        "links": {
+            "#5090": "https://github.com/tachiyomiorg/tachiyomi/issues/5064"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There is an issue with the scroll bar where the UI appears to have reached the bottom, but it can still be scrolled further. When navigating into something and then returning, the scroll bar jumps back to the top, but the page remains unchanged. At this point, it is still possible to scroll upwards, but the scroll bar gets stuck at the top.",
+        "num_bugs": 1,
+        "links": {
+            "#5168": "https://github.com/SimpleMobileTools/Simple-Gallery/issues/741"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The input field should accept general text, but it only allows numeric input (with a numeric keyboard poped up).",
+        "num_bugs": 1,
+        "links": {
+            "#5170": "https://github.com/BenoitDuffez/AndroidCupsPrint/issues/89"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The map tiles are reloaded and removed indefinitely.",
+        "num_bugs": 1,
+        "links": {
+            "#5188": "https://github.com/osmdroid/osmdroid/issues/846"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In the weather forecast app, when both the TODAY and LATER tabs are displayed correctly, the TOMORROW tab appears blank.",
+        "num_bugs": 1,
+        "links": {
+            "#5191": "https://github.com/martykan/forecastie/issues/172"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "The latitude and longitude values should be within a reasonable range (<180) and should not be extremely large.",
+        "num_bugs": 1,
+        "links": {
+            "#5200": "https://github.com/TylerWilliamson/QuickWeather/issues/57"
+        }
+    },
+    {
+        "category": "UI Content",
+        "principle": "This app behavior is considered a bug: An empty snackbar is being displayed.",
+        "num_bugs": 1,
+        "links": {
+            "#5217": "https://github.com/openMF/mifos-mobile/issues/247"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The image is not displayed, instead, a blank area is shown.",
+        "num_bugs": 1,
+        "links": {
+            "#5218": "https://github.com/fossasia/susi_android/issues/764"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: There are rare issues where switching languages affects functionality and the app does not accept specific data (invalid xxx). The English version works fine, but the German version does not accept it.",
+        "num_bugs": 1,
+        "links": {
+            "#5241": "https://github.com/kylecorry31/Trail-Sense/issues/425"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When scrolling down in the list, it suddenly jumps to the top of the list.",
+        "num_bugs": 1,
+        "links": {
+            "#5245": "https://github.com/owncloud/android/issues/3041"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When the layout is set to RTL (Right-to-Left), if the user wants to drag a card into the list on the right side, they should actually drag it to the left (and vice versa for the opposite direction).",
+        "num_bugs": 1,
+        "links": {
+            "#5252": "https://github.com/stefan-niedermann/nextcloud-deck/issues/512"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When selecting an item from the list, the user is presented with the option to create a new product.",
+        "num_bugs": 1,
+        "links": {
+            "#5262": "https://github.com/patzly/grocy-android/issues/219"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The video cannot be played. When the video is clicked, the player immediately closes and returns to the list page.",
+        "num_bugs": 1,
+        "links": {
+            "#5277": "https://github.com/mpv-android/mpv-android/issues/479"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The animation generated by clicking the upvote and downvote buttons, which have opposite semantics, is completely identical.",
+        "num_bugs": 1,
+        "links": {
+            "#5294": "https://github.com/Haptic-Apps/Slide/issues/2084"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: In the video player, the loading animation is displayed while the video is playing, but it should be displayed while the video is paused.",
+        "num_bugs": 1,
+        "links": {
+            "#5313": "https://github.com/mediathekview/zapp/issues/93"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: The synchronization function encounters errors and consistently fails to synchronize all data.",
+        "num_bugs": 1,
+        "links": {
+            "#5322": "https://github.com/MirakelX/mirakel-android/issues/407"
+        }
+    },
+    {
+        "category": "Interaction",
+        "principle": "This app behavior is considered a bug: When multiple notifications are pushed by the app at the same time, clicking YES under one of the notifications will dismiss all notifications, which should only apply to the current notification.",
+        "num_bugs": 1,
+        "links": {
+            "#5328": "https://github.com/iSoron/uhabits/issues/540"
+        }
+    }
+]
